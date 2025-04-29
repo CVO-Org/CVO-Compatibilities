@@ -280,29 +280,29 @@ class CfgWeapons {
 
 	// Core Classes
 	class CVO_GreenMag_Ammo_Core_1Rnd : greenmag_core_1Rnd {
-		author = "Skippie [CVO]";
+		author = "24th Chorni Voron";
 	};
 	class CVO_GreenMag_Ammo_Core_10Rnd : greenmag_core_10Rnd {
-		author = "Skippie [CVO]";
+		author = "24th Chorni Voron";
 	};
 	class CVO_GreenMag_Ammo_Core_20Rnd : greenmag_core_20Rnd {
-		author = "Skippie [CVO]";
+		author = "24th Chorni Voron";
 	};
 	class CVO_GreenMag_Ammo_Core_30Rnd : greenmag_core_30Rnd {
-		author = "Skippie [CVO]";
+		author = "24th Chorni Voron";
 	};
 	class CVO_GreenMag_Ammo_Core_40Rnd : greenmag_core_40Rnd {
-		author = "Skippie [CVO]";
+		author = "24th Chorni Voron";
 	};
 	class CVO_GreenMag_Ammo_Core_50Rnd : greenmag_core_50Rnd {
-		author = "Skippie [CVO]";
+		author = "24th Chorni Voron";
 	};
 	class CVO_GreenMag_Ammo_Core_60Rnd : greenmag_core_60Rnd {
-		author = "Skippie [CVO]";
+		author = "24th Chorni Voron";
 	};
 
 	class CVO_GreenMag_Belt_Core : CBA_MiscItem {
-		author = "Skippie [CVO]";
+		author = "24th Chorni Voron";
 
 		scope = 1;
 		scopeArsenal = 1;
