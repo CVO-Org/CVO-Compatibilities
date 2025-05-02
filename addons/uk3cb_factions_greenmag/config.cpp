@@ -1,7 +1,10 @@
+#include "script_component.hpp"
 
 class CfgPatches {
-	class CVO_Compats_UK3CB_Factions_GreenMag {
-		addonRootClass = "CVO_Compats_UK3CB_Factions";
+	class ADDON {
+		name = "24th CVO Compatibilities - 3CB Factions Greenmag";
+		author = "24th Chorni Voron";
+		url = "https://github.com/SkippieDippie/CVO-Everything-Compats";
 
 		requiredAddons[] = {
 			"UK3CB_Factions_Weapons",
@@ -9,7 +12,6 @@ class CfgPatches {
 		};
 		requiredVersion = 1.00;
 		skipWhenMissingDependencies = 1;
-		
 
 		units[] = {};
 		weapons[] = {};
@@ -17,7 +19,6 @@ class CfgPatches {
 };
 
 class CfgMagazines {
-	// External Classes
 	class CA_Magazine;
 	class 20Rnd_762x51_Mag;
 	class 30Rnd_556x45_Stanag;
@@ -48,5 +49,4 @@ class CfgMagazines {
 	#include "magazines\uk3cb_factions_77x56.hpp"
 	#include "magazines\uk3cb_factions_93x62.hpp"
 	#include "magazines\uk3cb_factions_9x19.hpp"
-
 };

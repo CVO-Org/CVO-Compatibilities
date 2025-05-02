@@ -1,7 +1,10 @@
+#include "script_component.hpp"
 
 class CfgPatches {
-	class CVO_Compats_RHSSAF_GreenMag {
-		addonRootClass = "CVO_Compats_RHSSAF";
+	class ADDON {
+		name = "24th CVO Compatibilities - RHS SAF Greenmag";
+		author = "24th Chorni Voron";
+		url = "https://github.com/SkippieDippie/CVO-Everything-Compats";
 
 		requiredAddons[] = {
 			"rhssaf_c_weapons",
@@ -16,7 +19,6 @@ class CfgPatches {
 };
 
 class CfgMagazines {
-	// External Classes
 	class CA_Magazine;
 
 	#include "magazines\rhs_saf_556x45.hpp"
@@ -25,5 +27,4 @@ class CfgMagazines {
 	#include "magazines\rhs_saf_765x17.hpp"
 	#include "magazines\rhs_saf_792x57.hpp"
 	#include "magazines\rhs_saf_9x19.hpp"
-	
 };

@@ -1,7 +1,10 @@
+#include "script_component.hpp"
 
 class CfgPatches {
-	class CVO_Compats_RHSUSAF_GreenMag {
-		addonRootClass = "CVO_Compats_RHSUSAF";
+	class ADDON {
+		name = "24th CVO Compatibilities - RHS USAF Greenmag";
+		author = "24th Chorni Voron";
+		url = "https://github.com/SkippieDippie/CVO-Everything-Compats";
 
 		requiredAddons[] = {
 			"rhsusf_c_weapons",
@@ -10,14 +13,12 @@ class CfgPatches {
 		requiredVersion = 1.00;
 		skipWhenMissingDependencies = 1;
 
-
 		units[] = {};
 		weapons[] = {};
 	};
 };
 
 class CfgMagazines {
-	// External Classes
 	class CA_Magazine;
 
 	#include "magazines\rhs_usaf_127x99.hpp"
@@ -26,5 +27,4 @@ class CfgMagazines {
 	#include "magazines\rhs_usaf_762x51.hpp"
 	#include "magazines\rhs_usaf_762x67.hpp"
 	#include "magazines\rhs_usaf_9x19.hpp"
-	
 };
