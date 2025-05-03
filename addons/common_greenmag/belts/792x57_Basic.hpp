@@ -2,7 +2,7 @@ class GVAR(belt_core_792x57_basic): GVAR(belt_core) {
     displayName = "792x57 Basic Belt Core";
 
     greenmag_ammo = QGVAR(ammo_792x57_basic_1Rnd);
-    greenmag_basicammo = "greenmag_ammo_792x57_basic_1Rnd";
+    greenmag_basicammo = QGVAR(ammo_792x57_basic_1Rnd);
     
     greenmag_item = QGVAR(belt_792x57_basic);
     greenmag_typeName = "792x57_basic";

@@ -15,7 +15,7 @@ class GVAR(belt_core_556x45_AP): GVAR(belt_core) {
 
 
 class GVAR(belt_556x45_AP_1): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 1, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 1, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 1;
 
@@ -25,7 +25,7 @@ class GVAR(belt_556x45_AP_1): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_2): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 2, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 2, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 2;
 
@@ -35,7 +35,7 @@ class GVAR(belt_556x45_AP_2): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_3): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 3, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 3, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 3;
 
@@ -45,7 +45,7 @@ class GVAR(belt_556x45_AP_3): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_4): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 4, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 4, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 4;
 
@@ -55,7 +55,7 @@ class GVAR(belt_556x45_AP_4): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_5): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 5, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 5, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 5;
 
@@ -65,7 +65,7 @@ class GVAR(belt_556x45_AP_5): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_6): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 6, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 6, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 6;
 
@@ -75,7 +75,7 @@ class GVAR(belt_556x45_AP_6): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_7): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 7, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 7, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 7;
 
@@ -85,7 +85,7 @@ class GVAR(belt_556x45_AP_7): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_8): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 8, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 8, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 8;
 
@@ -95,7 +95,7 @@ class GVAR(belt_556x45_AP_8): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_9): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 9, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 9, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 9;
 
@@ -105,7 +105,7 @@ class GVAR(belt_556x45_AP_9): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_10): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 10, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 10, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 10;
 
@@ -115,7 +115,7 @@ class GVAR(belt_556x45_AP_10): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_11): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 11, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 11, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 11;
 
@@ -125,7 +125,7 @@ class GVAR(belt_556x45_AP_11): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_12): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 12, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 12, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 12;
 
@@ -135,7 +135,7 @@ class GVAR(belt_556x45_AP_12): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_13): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 13, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 13, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 13;
 
@@ -145,7 +145,7 @@ class GVAR(belt_556x45_AP_13): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_14): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 14, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 14, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 14;
 
@@ -155,7 +155,7 @@ class GVAR(belt_556x45_AP_14): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_15): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 15, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 15, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 15;
 
@@ -165,7 +165,7 @@ class GVAR(belt_556x45_AP_15): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_16): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 16, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 16, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 16;
 
@@ -175,7 +175,7 @@ class GVAR(belt_556x45_AP_16): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_17): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 17, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 17, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 17;
 
@@ -185,7 +185,7 @@ class GVAR(belt_556x45_AP_17): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_18): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 18, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 18, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 18;
 
@@ -195,7 +195,7 @@ class GVAR(belt_556x45_AP_18): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_19): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 19, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 19, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 19;
 
@@ -205,7 +205,7 @@ class GVAR(belt_556x45_AP_19): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_20): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 20, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 20, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 20;
 
@@ -215,7 +215,7 @@ class GVAR(belt_556x45_AP_20): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_21): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 21, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 21, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 21;
 
@@ -225,7 +225,7 @@ class GVAR(belt_556x45_AP_21): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_22): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 22, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 22, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 22;
 
@@ -235,7 +235,7 @@ class GVAR(belt_556x45_AP_22): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_23): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 23, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 23, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 23;
 
@@ -245,7 +245,7 @@ class GVAR(belt_556x45_AP_23): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_24): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 24, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 24, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 24;
 
@@ -255,7 +255,7 @@ class GVAR(belt_556x45_AP_24): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_25): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 25, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 25, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 25;
 
@@ -265,7 +265,7 @@ class GVAR(belt_556x45_AP_25): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_26): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 26, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 26, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 26;
 
@@ -275,7 +275,7 @@ class GVAR(belt_556x45_AP_26): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_27): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 27, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 27, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 27;
 
@@ -285,7 +285,7 @@ class GVAR(belt_556x45_AP_27): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_28): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 28, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 28, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 28;
 
@@ -295,7 +295,7 @@ class GVAR(belt_556x45_AP_28): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_29): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 29, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 29, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 29;
 
@@ -305,7 +305,7 @@ class GVAR(belt_556x45_AP_29): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_30): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 30, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 30, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 30;
 
@@ -315,7 +315,7 @@ class GVAR(belt_556x45_AP_30): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_31): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 31, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 31, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 31;
 
@@ -325,7 +325,7 @@ class GVAR(belt_556x45_AP_31): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_32): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 32, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 32, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 32;
 
@@ -335,7 +335,7 @@ class GVAR(belt_556x45_AP_32): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_33): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 33, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 33, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 33;
 
@@ -345,7 +345,7 @@ class GVAR(belt_556x45_AP_33): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_34): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 34, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 34, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 34;
 
@@ -355,7 +355,7 @@ class GVAR(belt_556x45_AP_34): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_35): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 35, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 35, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 35;
 
@@ -365,7 +365,7 @@ class GVAR(belt_556x45_AP_35): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_36): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 36, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 36, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 36;
 
@@ -375,7 +375,7 @@ class GVAR(belt_556x45_AP_36): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_37): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 37, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 37, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 37;
 
@@ -385,7 +385,7 @@ class GVAR(belt_556x45_AP_37): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_38): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 38, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 38, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 38;
 
@@ -395,7 +395,7 @@ class GVAR(belt_556x45_AP_38): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_39): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 39, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 39, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 39;
 
@@ -405,7 +405,7 @@ class GVAR(belt_556x45_AP_39): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_40): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 40, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 40, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 40;
 
@@ -415,7 +415,7 @@ class GVAR(belt_556x45_AP_40): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_41): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 41, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 41, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 41;
 
@@ -425,7 +425,7 @@ class GVAR(belt_556x45_AP_41): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_42): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 42, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 42, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 42;
 
@@ -435,7 +435,7 @@ class GVAR(belt_556x45_AP_42): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_43): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 43, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 43, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 43;
 
@@ -445,7 +445,7 @@ class GVAR(belt_556x45_AP_43): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_44): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 44, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 44, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 44;
 
@@ -455,7 +455,7 @@ class GVAR(belt_556x45_AP_44): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_45): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 45, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 45, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 45;
 
@@ -465,7 +465,7 @@ class GVAR(belt_556x45_AP_45): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_46): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 46, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 46, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 46;
 
@@ -475,7 +475,7 @@ class GVAR(belt_556x45_AP_46): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_47): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 47, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 47, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 47;
 
@@ -485,7 +485,7 @@ class GVAR(belt_556x45_AP_47): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_48): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 48, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 48, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 48;
 
@@ -495,7 +495,7 @@ class GVAR(belt_556x45_AP_48): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_49): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 49, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 49, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 49;
 
@@ -505,7 +505,7 @@ class GVAR(belt_556x45_AP_49): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_50): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 50, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 50, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 50;
 
@@ -519,7 +519,7 @@ class GVAR(belt_556x45_AP_50): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_51): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 51, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 51, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 51;
 
@@ -529,7 +529,7 @@ class GVAR(belt_556x45_AP_51): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_52): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 52, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 52, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 52;
 
@@ -539,7 +539,7 @@ class GVAR(belt_556x45_AP_52): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_53): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 53, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 53, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 53;
 
@@ -549,7 +549,7 @@ class GVAR(belt_556x45_AP_53): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_54): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 54, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 54, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 54;
 
@@ -559,7 +559,7 @@ class GVAR(belt_556x45_AP_54): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_55): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 55, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 55, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 55;
 
@@ -569,7 +569,7 @@ class GVAR(belt_556x45_AP_55): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_56): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 56, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 56, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 56;
 
@@ -579,7 +579,7 @@ class GVAR(belt_556x45_AP_56): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_57): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 57, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 57, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 57;
 
@@ -589,7 +589,7 @@ class GVAR(belt_556x45_AP_57): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_58): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 58, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 58, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 58;
 
@@ -599,7 +599,7 @@ class GVAR(belt_556x45_AP_58): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_59): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 59, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 59, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 59;
 
@@ -609,7 +609,7 @@ class GVAR(belt_556x45_AP_59): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_60): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 60, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 60, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 60;
 
@@ -619,7 +619,7 @@ class GVAR(belt_556x45_AP_60): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_61): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 61, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 61, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 61;
 
@@ -629,7 +629,7 @@ class GVAR(belt_556x45_AP_61): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_62): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 62, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 62, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 62;
 
@@ -639,7 +639,7 @@ class GVAR(belt_556x45_AP_62): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_63): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 63, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 63, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 63;
 
@@ -649,7 +649,7 @@ class GVAR(belt_556x45_AP_63): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_64): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 64, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 64, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 64;
 
@@ -659,7 +659,7 @@ class GVAR(belt_556x45_AP_64): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_65): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 65, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 65, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 65;
 
@@ -669,7 +669,7 @@ class GVAR(belt_556x45_AP_65): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_66): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 66, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 66, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 66;
 
@@ -679,7 +679,7 @@ class GVAR(belt_556x45_AP_66): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_67): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 67, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 67, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 67;
 
@@ -689,7 +689,7 @@ class GVAR(belt_556x45_AP_67): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_68): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 68, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 68, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 68;
 
@@ -699,7 +699,7 @@ class GVAR(belt_556x45_AP_68): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_69): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 69, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 69, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 69;
 
@@ -709,7 +709,7 @@ class GVAR(belt_556x45_AP_69): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_70): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 70, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 70, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 70;
 
@@ -719,7 +719,7 @@ class GVAR(belt_556x45_AP_70): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_71): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 71, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 71, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 71;
 
@@ -729,7 +729,7 @@ class GVAR(belt_556x45_AP_71): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_72): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 72, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 72, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 72;
 
@@ -739,7 +739,7 @@ class GVAR(belt_556x45_AP_72): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_73): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 73, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 73, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 73;
 
@@ -749,7 +749,7 @@ class GVAR(belt_556x45_AP_73): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_74): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 74, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 74, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 74;
 
@@ -759,7 +759,7 @@ class GVAR(belt_556x45_AP_74): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_75): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 75, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 75, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 75;
 
@@ -769,7 +769,7 @@ class GVAR(belt_556x45_AP_75): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_76): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 76, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 76, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 76;
 
@@ -779,7 +779,7 @@ class GVAR(belt_556x45_AP_76): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_77): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 77, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 77, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 77;
 
@@ -789,7 +789,7 @@ class GVAR(belt_556x45_AP_77): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_78): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 78, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 78, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 78;
 
@@ -799,7 +799,7 @@ class GVAR(belt_556x45_AP_78): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_79): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 79, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 79, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 79;
 
@@ -809,7 +809,7 @@ class GVAR(belt_556x45_AP_79): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_80): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 80, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 80, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 80;
 
@@ -819,7 +819,7 @@ class GVAR(belt_556x45_AP_80): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_81): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 81, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 81, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 81;
 
@@ -829,7 +829,7 @@ class GVAR(belt_556x45_AP_81): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_82): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 82, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 82, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 82;
 
@@ -839,7 +839,7 @@ class GVAR(belt_556x45_AP_82): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_83): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 83, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 83, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 83;
 
@@ -849,7 +849,7 @@ class GVAR(belt_556x45_AP_83): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_84): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 84, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 84, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 84;
 
@@ -859,7 +859,7 @@ class GVAR(belt_556x45_AP_84): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_85): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 85, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 85, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 85;
 
@@ -869,7 +869,7 @@ class GVAR(belt_556x45_AP_85): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_86): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 86, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 86, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 86;
 
@@ -879,7 +879,7 @@ class GVAR(belt_556x45_AP_86): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_87): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 87, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 87, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 87;
 
@@ -889,7 +889,7 @@ class GVAR(belt_556x45_AP_87): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_88): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 88, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 88, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 88;
 
@@ -899,7 +899,7 @@ class GVAR(belt_556x45_AP_88): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_89): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 89, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 89, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 89;
 
@@ -909,7 +909,7 @@ class GVAR(belt_556x45_AP_89): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_90): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 90, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 90, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 90;
 
@@ -919,7 +919,7 @@ class GVAR(belt_556x45_AP_90): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_91): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 91, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 91, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 91;
 
@@ -929,7 +929,7 @@ class GVAR(belt_556x45_AP_91): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_92): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 92, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 92, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 92;
 
@@ -939,7 +939,7 @@ class GVAR(belt_556x45_AP_92): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_93): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 93, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 93, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 93;
 
@@ -949,7 +949,7 @@ class GVAR(belt_556x45_AP_93): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_94): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 94, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 94, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 94;
 
@@ -959,7 +959,7 @@ class GVAR(belt_556x45_AP_94): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_95): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 95, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 95, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 95;
 
@@ -969,7 +969,7 @@ class GVAR(belt_556x45_AP_95): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_96): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 96, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 96, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 96;
 
@@ -979,7 +979,7 @@ class GVAR(belt_556x45_AP_96): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_97): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 97, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 97, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 97;
 
@@ -989,7 +989,7 @@ class GVAR(belt_556x45_AP_97): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_98): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 98, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 98, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 98;
 
@@ -999,7 +999,7 @@ class GVAR(belt_556x45_AP_98): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_99): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 99, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 99, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 99;
 
@@ -1009,7 +1009,7 @@ class GVAR(belt_556x45_AP_99): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_100): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 100, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 100, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 100;
 
@@ -1022,7 +1022,7 @@ class GVAR(belt_556x45_AP_100): GVAR(belt_core_556x45_AP) {
     };
 };
 class GVAR(belt_556x45_AP_101): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 101, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 101, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 101;
 
@@ -1032,7 +1032,7 @@ class GVAR(belt_556x45_AP_101): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_102): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 102, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 102, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 102;
 
@@ -1042,7 +1042,7 @@ class GVAR(belt_556x45_AP_102): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_103): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 103, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 103, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 103;
 
@@ -1052,7 +1052,7 @@ class GVAR(belt_556x45_AP_103): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_104): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 104, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 104, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 104;
 
@@ -1062,7 +1062,7 @@ class GVAR(belt_556x45_AP_104): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_105): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 105, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 105, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 105;
 
@@ -1072,7 +1072,7 @@ class GVAR(belt_556x45_AP_105): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_106): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 106, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 106, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 106;
 
@@ -1082,7 +1082,7 @@ class GVAR(belt_556x45_AP_106): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_107): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 107, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 107, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 107;
 
@@ -1092,7 +1092,7 @@ class GVAR(belt_556x45_AP_107): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_108): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 108, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 108, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 108;
 
@@ -1102,7 +1102,7 @@ class GVAR(belt_556x45_AP_108): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_109): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 109, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 109, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 109;
 
@@ -1112,7 +1112,7 @@ class GVAR(belt_556x45_AP_109): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_110): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 110, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 110, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 110;
 
@@ -1122,7 +1122,7 @@ class GVAR(belt_556x45_AP_110): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_111): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 111, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 111, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 111;
 
@@ -1132,7 +1132,7 @@ class GVAR(belt_556x45_AP_111): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_112): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 112, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 112, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 112;
 
@@ -1142,7 +1142,7 @@ class GVAR(belt_556x45_AP_112): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_113): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 113, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 113, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 113;
 
@@ -1152,7 +1152,7 @@ class GVAR(belt_556x45_AP_113): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_114): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 114, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 114, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 114;
 
@@ -1162,7 +1162,7 @@ class GVAR(belt_556x45_AP_114): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_115): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 115, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 115, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 115;
 
@@ -1172,7 +1172,7 @@ class GVAR(belt_556x45_AP_115): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_116): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 116, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 116, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 116;
 
@@ -1182,7 +1182,7 @@ class GVAR(belt_556x45_AP_116): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_117): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 117, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 117, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 117;
 
@@ -1192,7 +1192,7 @@ class GVAR(belt_556x45_AP_117): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_118): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 118, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 118, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 118;
 
@@ -1202,7 +1202,7 @@ class GVAR(belt_556x45_AP_118): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_119): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 119, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 119, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 119;
 
@@ -1212,7 +1212,7 @@ class GVAR(belt_556x45_AP_119): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_120): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 120, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 120, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 120;
 
@@ -1222,7 +1222,7 @@ class GVAR(belt_556x45_AP_120): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_121): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 121, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 121, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 121;
 
@@ -1232,7 +1232,7 @@ class GVAR(belt_556x45_AP_121): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_122): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 122, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 122, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 122;
 
@@ -1242,7 +1242,7 @@ class GVAR(belt_556x45_AP_122): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_123): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 123, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 123, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 123;
 
@@ -1252,7 +1252,7 @@ class GVAR(belt_556x45_AP_123): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_124): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 124, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 124, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 124;
 
@@ -1262,7 +1262,7 @@ class GVAR(belt_556x45_AP_124): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_125): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 125, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 125, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 125;
 
@@ -1272,7 +1272,7 @@ class GVAR(belt_556x45_AP_125): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_126): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 126, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 126, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 126;
 
@@ -1282,7 +1282,7 @@ class GVAR(belt_556x45_AP_126): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_127): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 127, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 127, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 127;
 
@@ -1292,7 +1292,7 @@ class GVAR(belt_556x45_AP_127): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_128): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 128, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 128, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 128;
 
@@ -1302,7 +1302,7 @@ class GVAR(belt_556x45_AP_128): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_129): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 129, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 129, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 129;
 
@@ -1312,7 +1312,7 @@ class GVAR(belt_556x45_AP_129): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_130): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 130, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 130, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 130;
 
@@ -1322,7 +1322,7 @@ class GVAR(belt_556x45_AP_130): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_131): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 131, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 131, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 131;
 
@@ -1332,7 +1332,7 @@ class GVAR(belt_556x45_AP_131): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_132): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 132, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 132, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 132;
 
@@ -1342,7 +1342,7 @@ class GVAR(belt_556x45_AP_132): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_133): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 133, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 133, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 133;
 
@@ -1352,7 +1352,7 @@ class GVAR(belt_556x45_AP_133): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_134): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 134, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 134, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 134;
 
@@ -1362,7 +1362,7 @@ class GVAR(belt_556x45_AP_134): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_135): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 135, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 135, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 135;
 
@@ -1372,7 +1372,7 @@ class GVAR(belt_556x45_AP_135): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_136): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 136, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 136, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 136;
 
@@ -1382,7 +1382,7 @@ class GVAR(belt_556x45_AP_136): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_137): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 137, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 137, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 137;
 
@@ -1392,7 +1392,7 @@ class GVAR(belt_556x45_AP_137): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_138): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 138, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 138, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 138;
 
@@ -1402,7 +1402,7 @@ class GVAR(belt_556x45_AP_138): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_139): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 139, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 139, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 139;
 
@@ -1412,7 +1412,7 @@ class GVAR(belt_556x45_AP_139): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_140): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 140, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 140, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 140;
 
@@ -1422,7 +1422,7 @@ class GVAR(belt_556x45_AP_140): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_141): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 141, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 141, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 141;
 
@@ -1432,7 +1432,7 @@ class GVAR(belt_556x45_AP_141): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_142): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 142, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 142, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 142;
 
@@ -1442,7 +1442,7 @@ class GVAR(belt_556x45_AP_142): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_143): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 143, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 143, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 143;
 
@@ -1452,7 +1452,7 @@ class GVAR(belt_556x45_AP_143): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_144): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 144, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 144, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 144;
 
@@ -1462,7 +1462,7 @@ class GVAR(belt_556x45_AP_144): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_145): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 145, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 145, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 145;
 
@@ -1472,7 +1472,7 @@ class GVAR(belt_556x45_AP_145): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_146): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 146, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 146, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 146;
 
@@ -1482,7 +1482,7 @@ class GVAR(belt_556x45_AP_146): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_147): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 147, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 147, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 147;
 
@@ -1492,7 +1492,7 @@ class GVAR(belt_556x45_AP_147): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_148): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 148, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 148, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 148;
 
@@ -1502,7 +1502,7 @@ class GVAR(belt_556x45_AP_148): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_149): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 149, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 149, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 149;
 
@@ -1512,7 +1512,7 @@ class GVAR(belt_556x45_AP_149): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_150): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 150, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 150, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 150;
 
@@ -1526,7 +1526,7 @@ class GVAR(belt_556x45_AP_150): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_151): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 151, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 151, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 151;
 
@@ -1536,7 +1536,7 @@ class GVAR(belt_556x45_AP_151): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_152): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 152, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 152, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 152;
 
@@ -1546,7 +1546,7 @@ class GVAR(belt_556x45_AP_152): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_153): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 153, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 153, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 153;
 
@@ -1556,7 +1556,7 @@ class GVAR(belt_556x45_AP_153): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_154): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 154, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 154, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 154;
 
@@ -1566,7 +1566,7 @@ class GVAR(belt_556x45_AP_154): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_155): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 155, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 155, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 155;
 
@@ -1576,7 +1576,7 @@ class GVAR(belt_556x45_AP_155): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_156): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 156, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 156, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 156;
 
@@ -1586,7 +1586,7 @@ class GVAR(belt_556x45_AP_156): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_157): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 157, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 157, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 157;
 
@@ -1596,7 +1596,7 @@ class GVAR(belt_556x45_AP_157): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_158): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 158, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 158, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 158;
 
@@ -1606,7 +1606,7 @@ class GVAR(belt_556x45_AP_158): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_159): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 159, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 159, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 159;
 
@@ -1616,7 +1616,7 @@ class GVAR(belt_556x45_AP_159): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_160): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 160, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 160, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 160;
 
@@ -1626,7 +1626,7 @@ class GVAR(belt_556x45_AP_160): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_161): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 161, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 161, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 161;
 
@@ -1636,7 +1636,7 @@ class GVAR(belt_556x45_AP_161): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_162): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 162, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 162, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 162;
 
@@ -1646,7 +1646,7 @@ class GVAR(belt_556x45_AP_162): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_163): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 163, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 163, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 163;
 
@@ -1656,7 +1656,7 @@ class GVAR(belt_556x45_AP_163): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_164): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 164, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 164, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 164;
 
@@ -1666,7 +1666,7 @@ class GVAR(belt_556x45_AP_164): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_165): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 165, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 165, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 165;
 
@@ -1676,7 +1676,7 @@ class GVAR(belt_556x45_AP_165): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_166): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 166, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 166, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 166;
 
@@ -1686,7 +1686,7 @@ class GVAR(belt_556x45_AP_166): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_167): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 167, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 167, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 167;
 
@@ -1696,7 +1696,7 @@ class GVAR(belt_556x45_AP_167): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_168): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 168, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 168, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 168;
 
@@ -1706,7 +1706,7 @@ class GVAR(belt_556x45_AP_168): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_169): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 169, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 169, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 169;
 
@@ -1716,7 +1716,7 @@ class GVAR(belt_556x45_AP_169): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_170): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 170, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 170, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 170;
 
@@ -1726,7 +1726,7 @@ class GVAR(belt_556x45_AP_170): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_171): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 171, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 171, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 171;
 
@@ -1736,7 +1736,7 @@ class GVAR(belt_556x45_AP_171): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_172): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 172, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 172, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 172;
 
@@ -1746,7 +1746,7 @@ class GVAR(belt_556x45_AP_172): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_173): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 173, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 173, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 173;
 
@@ -1756,7 +1756,7 @@ class GVAR(belt_556x45_AP_173): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_174): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 174, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 174, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 174;
 
@@ -1766,7 +1766,7 @@ class GVAR(belt_556x45_AP_174): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_175): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 175, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 175, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 175;
 
@@ -1776,7 +1776,7 @@ class GVAR(belt_556x45_AP_175): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_176): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 176, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 176, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 176;
 
@@ -1786,7 +1786,7 @@ class GVAR(belt_556x45_AP_176): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_177): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 177, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 177, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 177;
 
@@ -1796,7 +1796,7 @@ class GVAR(belt_556x45_AP_177): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_178): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 178, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 178, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 178;
 
@@ -1806,7 +1806,7 @@ class GVAR(belt_556x45_AP_178): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_179): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 179, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 179, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 179;
 
@@ -1816,7 +1816,7 @@ class GVAR(belt_556x45_AP_179): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_180): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 180, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 180, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 180;
 
@@ -1826,7 +1826,7 @@ class GVAR(belt_556x45_AP_180): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_181): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 181, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 181, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 181;
 
@@ -1836,7 +1836,7 @@ class GVAR(belt_556x45_AP_181): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_182): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 182, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 182, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 182;
 
@@ -1846,7 +1846,7 @@ class GVAR(belt_556x45_AP_182): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_183): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 183, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 183, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 183;
 
@@ -1856,7 +1856,7 @@ class GVAR(belt_556x45_AP_183): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_184): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 184, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 184, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 184;
 
@@ -1866,7 +1866,7 @@ class GVAR(belt_556x45_AP_184): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_185): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 185, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 185, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 185;
 
@@ -1876,7 +1876,7 @@ class GVAR(belt_556x45_AP_185): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_186): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 186, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 186, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 186;
 
@@ -1886,7 +1886,7 @@ class GVAR(belt_556x45_AP_186): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_187): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 187, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 187, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 187;
 
@@ -1896,7 +1896,7 @@ class GVAR(belt_556x45_AP_187): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_188): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 188, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 188, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 188;
 
@@ -1906,7 +1906,7 @@ class GVAR(belt_556x45_AP_188): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_189): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 189, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 189, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 189;
 
@@ -1916,7 +1916,7 @@ class GVAR(belt_556x45_AP_189): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_190): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 190, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 190, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 190;
 
@@ -1926,7 +1926,7 @@ class GVAR(belt_556x45_AP_190): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_191): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 191, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 191, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 191;
 
@@ -1936,7 +1936,7 @@ class GVAR(belt_556x45_AP_191): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_192): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 192, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 192, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 192;
 
@@ -1946,7 +1946,7 @@ class GVAR(belt_556x45_AP_192): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_193): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 193, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 193, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 193;
 
@@ -1956,7 +1956,7 @@ class GVAR(belt_556x45_AP_193): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_194): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 194, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 194, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 194;
 
@@ -1966,7 +1966,7 @@ class GVAR(belt_556x45_AP_194): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_195): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 195, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 195, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 195;
 
@@ -1976,7 +1976,7 @@ class GVAR(belt_556x45_AP_195): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_196): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 196, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 196, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 196;
 
@@ -1986,7 +1986,7 @@ class GVAR(belt_556x45_AP_196): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_197): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 197, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 197, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 197;
 
@@ -1996,7 +1996,7 @@ class GVAR(belt_556x45_AP_197): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_198): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 198, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 198, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 198;
 
@@ -2006,7 +2006,7 @@ class GVAR(belt_556x45_AP_198): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_199): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 199, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 199, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 199;
 
@@ -2016,7 +2016,7 @@ class GVAR(belt_556x45_AP_199): GVAR(belt_core_556x45_AP) {
 };
 
 class GVAR(belt_556x45_AP_200): GVAR(belt_core_556x45_AP) {
-    displayName = __EVAL(format [LLSTRING(ammo_Belt_basic_mm_Name), "5.56x45", 200, LLSTRING(ammo_AP_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "5.56x45", 200, LLSTRING(ammo_AP_Short)]);
     
     greenmag_bullets = 200;
 
