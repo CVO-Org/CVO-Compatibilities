@@ -3,7 +3,7 @@
 class CfgPatches {
     class ADDON {
         name = "24th CVO Compatibilities";
-        author = "24th Chorni Voron";
+        author = ELSTRING(main,author);
         url = "https://github.com/SkippieDippie/CVO-Communication-Systems";
 
         requiredVersion = 1.00;

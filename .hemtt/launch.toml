@@ -1,0 +1,22 @@
+[default]
+workshop = [
+    "450814997", #CBA
+]
+presets = [
+    "dev_full",
+]
+dlc = [
+    "vn",
+    ]
+optionals = []
+parameters = [
+    "-skipIntro",
+    "-noSplash",
+    "-showScriptErrors",
+    "-debug",
+    "-filePatching",
+]
+executable = "arma3_x64"
+file_patching = true
+binarize = false
+rapify = true

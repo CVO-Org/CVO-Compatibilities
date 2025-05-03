@@ -1,152 +1,152 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project name="Everything Compats - RHS AFRF">
-    <Package name="GreenMag">
-        <Container name = "Ammo Basic">
-            <Key ID = "STR_cvo_compats_common_greenmag_Ammo_Basic_mm_Name">
-                <Original>%1mm - %2 Rnd</Original>
-                <Russian>%1мм - %2 птр.</Russian>
-                <German>%1mm - %2 Schuss</German>
-            </Key>
-            <Key ID = "STR_cvo_compats_common_greenmag_Ammo_Basic_in_Name">
-                <Original>%1 - %2 Rnd</Original>
-                <Russian>%1 - %2 птр.</Russian>
-                <German>%1 - %2 Schuss</German>
-            </Key>
-            <Key ID = "STR_cvo_compats_common_greenmag_Ammo_Basic_mm_Desc">
-                <Original>Cartridge: %1mm</Original>
-                <Russian>Калибр: %1мм</Russian>
-                <German>Patrone: %1mm</German>
-            </Key>
-            <Key ID = "STR_cvo_compats_common_greenmag_Ammo_Basic_in_Desc">
-                <Original>Cartridge: %1</Original>
+<Project name="cvo_compats">
+    <Package name="common_greenmag">
+        <Container name="Ammo Basic">
+            <Key ID="STR_cvo_compats_common_greenmag_ammo_basic_in_desc">
+                <English>Cartridge: %1</English>
                 <Russian>Калибр: %1</Russian>
                 <German>Patrone: %1</German>
             </Key>
-            <Key ID = "STR_cvo_compats_common_greenmag_Ammo_Belt_Basic_mm_Name">
-                <Original>%1mm Belt - %2 Rnd</Original>
-                <Russian>%1мм лента - %2 птр.</Russian>
-                <German>%1mm Gurt - %2 Schuss</German>
+            <Key ID="STR_cvo_compats_common_greenmag_ammo_basic_in_name">
+                <English>%1 - %2 Rnd</English>
+                <Russian>%1 - %2 птр.</Russian>
+                <German>%1 - %2 Schuss</German>
             </Key>
-            <Key ID = "STR_cvo_compats_common_greenmag_Ammo_Belt_Basic_in_Name">
-                <Original>%1 Belt - %2 Rnd</Original>
+            <Key ID="STR_cvo_compats_common_greenmag_ammo_basic_mm_desc">
+                <English>Cartridge: %1mm</English>
+                <Russian>Калибр: %1мм</Russian>
+                <German>Patrone: %1mm</German>
+            </Key>
+            <Key ID="STR_cvo_compats_common_greenmag_ammo_basic_mm_name">
+                <English>%1mm - %2 Rnd</English>
+                <Russian>%1мм - %2 птр.</Russian>
+                <German>%1mm - %2 Schuss</German>
+            </Key>
+            <Key ID="STR_cvo_compats_common_greenmag_ammo_belt_basic_in_name">
+                <English>%1 Belt - %2 Rnd</English>
                 <Russian>%1 лента - %2 птр.</Russian>
                 <German>%1 Gurt - %2 Schuss</German>
             </Key>
+            <Key ID="STR_cvo_compats_common_greenmag_ammo_belt_basic_mm_name">
+                <English>%1mm Belt - %2 Rnd</English>
+                <Russian>%1мм лента - %2 птр.</Russian>
+                <German>%1mm Gurt - %2 Schuss</German>
+            </Key>
         </Container>
-        <Container name = "Ammo Complex">
-            <Key ID = "STR_cvo_compats_common_greenmag_Ammo_Complex_mm_Name">
-                <Original>%1mm - %2 Rnd [%3]</Original>
-                <Russian>%1мм - %2 птр. [%3]</Russian>
-                <German>%1mm - %2 Schuss [%3]</German>
-            </Key>
-            <Key ID = "STR_cvo_compats_common_greenmag_Ammo_Complex_in_Name">
-                <Original>%1 - %2 Rnd [%3]</Original>
-                <Russian>%1 - %2 птр. [%3]</Russian>
-                <German>%1 - %2 Schuss [%3]</German>
-            </Key>
-            <Key ID = "STR_cvo_compats_common_greenmag_Ammo_Belt_Complex_mm_Name">
-                <Original>%1mm Belt - %2 Rnd [%3]</Original>
-                <Russian>%1мм лента - %2 птр. [%3]</Russian>
-                <German>%1mm Gurt - %2 Schuss [%3]</German>
-            </Key>
-            <Key ID = "STR_cvo_compats_common_greenmag_Ammo_Belt_Complex_in_Name">
-                <Original>%1 Belt - %2 Rnd [%3]</Original>
+        <Container name="Ammo Complex">
+            <Key ID="STR_cvo_compats_common_greenmag_ammo_belt_complex_in_name">
+                <English>%1 Belt - %2 Rnd [%3]</English>
                 <Russian>%1 лента - %2 птр. [%3]</Russian>
                 <German>%1 Gurt - %2 Schuss [%3]</German>
             </Key>
-            <Key ID = "STR_cvo_compats_common_greenmag_Ammo_Complex_mm_Desc">
-                <Original>Cartridge: %1mm&lt;br/&gt;Bullet type: %2</Original>
-                <Russian>Калибр: %1мм&lt;br/&gt;Тип пули: %2</Russian>
-                <German>Patrone: %1mm&lt;br/&gt;Art des Geschoss: %2</German>
+            <Key ID="STR_cvo_compats_common_greenmag_ammo_belt_complex_mm_name">
+                <English>%1mm Belt - %2 Rnd [%3]</English>
+                <Russian>%1мм лента - %2 птр. [%3]</Russian>
+                <German>%1mm Gurt - %2 Schuss [%3]</German>
             </Key>
-            <Key ID = "STR_cvo_compats_common_greenmag_Ammo_Complex_in_Desc">
-                <Original>Cartridge: %1&lt;br/&gt;Bullet type: %2</Original>
+            <Key ID="STR_cvo_compats_common_greenmag_ammo_complex_in_desc">
+                <English>Cartridge: %1&lt;br/&gt;Bullet type: %2</English>
                 <Russian>Калибр: %1&lt;br/&gt;Тип пули: %2</Russian>
                 <German>Patrone: %1&lt;br/&gt;Art des Geschoss: %2</German>
             </Key>
-        </Container>
-        <Container name = "Ammo Types Short">
-            <Key ID = "STR_cvo_compats_common_greenmag_Ammo_AP_Short">
-                <Original>AP</Original>
-                <Russian>БП</Russian>
-                <German>AP</German>
+            <Key ID="STR_cvo_compats_common_greenmag_ammo_complex_in_name">
+                <English>%1 - %2 Rnd [%3]</English>
+                <Russian>%1 - %2 птр. [%3]</Russian>
+                <German>%1 - %2 Schuss [%3]</German>
             </Key>
-            <Key ID = "STR_cvo_compats_common_greenmag_Ammo_EP_Short">
-                <Original>EP</Original>
-                <Russian>ПП</Russian>
-                <German>EP</German>
+            <Key ID="STR_cvo_compats_common_greenmag_ammo_complex_mm_desc">
+                <English>Cartridge: %1mm&lt;br/&gt;Bullet type: %2</English>
+                <Russian>Калибр: %1мм&lt;br/&gt;Тип пули: %2</Russian>
+                <German>Patrone: %1mm&lt;br/&gt;Art des Geschoss: %2</German>
             </Key>
-            <Key ID = "STR_cvo_compats_common_greenmag_Ammo_FMJ_Short">
-                <Original>FMJ</Original>
-                <Russian>ПС</Russian>
-                <German>FMJ</German>
-            </Key>
-            <Key ID = "STR_cvo_compats_common_greenmag_Ammo_JHP_Short">
-                <Original>JHP</Original>
-                <Russian>Эксп.</Russian>
-                <German>JHP</German>
-            </Key>
-            <Key ID = "STR_cvo_compats_common_greenmag_Ammo_Blank_Short">
-                <Original>Blank</Original>
-                <Russian>Холост.</Russian>
-                <German>Platzp.e</German>
-            </Key>
-            <Key ID = "STR_cvo_compats_common_greenmag_Ammo_Match_Short">
-                <Original>Match</Original>
-                <Russian>Снайп.</Russian>
-                <German>Präz.</German>
-            </Key>
-            <Key ID = "STR_cvo_compats_common_greenmag_Ammo_Subsonic_Short">
-                <Original>Subsonic</Original>
-                <Russian>УС</Russian>
-                <German>Unterschallmunition</German>
-            </Key>
-            <Key ID = "STR_cvo_compats_common_greenmag_Ammo_Tracer_Short">
-                <Original>Tracer</Original>
-                <Russian>Трассер</Russian>
-                <German>Leuchtsp.</German>
+            <Key ID="STR_cvo_compats_common_greenmag_ammo_complex_mm_name">
+                <English>%1mm - %2 Rnd [%3]</English>
+                <Russian>%1мм - %2 птр. [%3]</Russian>
+                <German>%1mm - %2 Schuss [%3]</German>
             </Key>
         </Container>
-        <Container name = "Ammo Types Full">
-            <Key ID = "STR_cvo_compats_common_greenmag_Ammo_AP_Full">
-                <Original>Armour Piercing</Original>
+        <Container name="Ammo Types Full">
+            <Key ID="STR_cvo_compats_common_greenmag_ammo_ap_full">
+                <English>Armour Piercing</English>
                 <Russian>бронебойная</Russian>
                 <German>Panzerbrechend</German>
             </Key>
-            <Key ID = "STR_cvo_compats_common_greenmag_Ammo_EP_Full">
-                <Original>Enhanced Penetration</Original>
-                <Russian>повышенной пробиваемости</Russian>
-                <German>Verbesserte Penetration</German>
-            </Key>
-            <Key ID = "STR_cvo_compats_common_greenmag_Ammo_FMJ_Full">
-                <Original>Full Metal Jacket</Original>
-                <Russian>стальная</Russian>
-                <German>Vollmantelgeschoss</German>
-            </Key>
-            <Key ID = "STR_cvo_compats_common_greenmag_Ammo_JHP_Full">
-                <Original>Hollow Point</Original>
-                <Russian>экспансивная</Russian>
-                <German>Hohlspitzgeschoss</German>
-            </Key>
-            <Key ID = "STR_cvo_compats_common_greenmag_Ammo_Blank_Full">
-                <Original>Blank</Original>
+            <Key ID="STR_cvo_compats_common_greenmag_ammo_blank_full">
+                <English>Blank</English>
                 <Russian>холостой</Russian>
                 <German>Platzpatrone</German>
             </Key>
-            <Key ID = "STR_cvo_compats_common_greenmag_Ammo_Match_Full">
-                <Original>Match Grade</Original>
+            <Key ID="STR_cvo_compats_common_greenmag_ammo_ep_full">
+                <English>Enhanced Penetration</English>
+                <Russian>повышенной пробиваемости</Russian>
+                <German>Verbesserte Penetration</German>
+            </Key>
+            <Key ID="STR_cvo_compats_common_greenmag_ammo_fmj_full">
+                <English>Full Metal Jacket</English>
+                <Russian>стальная</Russian>
+                <German>Vollmantelgeschoss</German>
+            </Key>
+            <Key ID="STR_cvo_compats_common_greenmag_ammo_jhp_full">
+                <English>Hollow Point</English>
+                <Russian>экспансивная</Russian>
+                <German>Hohlspitzgeschoss</German>
+            </Key>
+            <Key ID="STR_cvo_compats_common_greenmag_ammo_match_full">
+                <English>Match Grade</English>
                 <Russian>снайперская</Russian>
                 <German>Präzisionsmunition</German>
             </Key>
-            <Key ID = "STR_cvo_compats_common_greenmag_Ammo_Subsonic_Full">
-                <Original>Subsonic</Original>
+            <Key ID="STR_cvo_compats_common_greenmag_ammo_subsonic_full">
+                <English>Subsonic</English>
                 <Russian>с уменьшенной скоростью</Russian>
                 <German>Unterschallmunition</German>
             </Key>
-            <Key ID = "STR_cvo_compats_common_greenmag_Ammo_Tracer_Full">
-                <Original>Tracer</Original>
+            <Key ID="STR_cvo_compats_common_greenmag_ammo_tracer_full">
+                <English>Tracer</English>
                 <Russian>трассирующая</Russian>
                 <German>Leuchtspurgeschoss</German>
+            </Key>
+        </Container>
+        <Container name="Ammo Types Short">
+            <Key ID="STR_cvo_compats_common_greenmag_ammo_ap_short">
+                <English>AP</English>
+                <Russian>БП</Russian>
+                <German>AP</German>
+            </Key>
+            <Key ID="STR_cvo_compats_common_greenmag_ammo_blank_short">
+                <English>Blank</English>
+                <Russian>Холост.</Russian>
+                <German>Platzp.e</German>
+            </Key>
+            <Key ID="STR_cvo_compats_common_greenmag_ammo_ep_short">
+                <English>EP</English>
+                <Russian>ПП</Russian>
+                <German>EP</German>
+            </Key>
+            <Key ID="STR_cvo_compats_common_greenmag_ammo_fmj_short">
+                <English>FMJ</English>
+                <Russian>ПС</Russian>
+                <German>FMJ</German>
+            </Key>
+            <Key ID="STR_cvo_compats_common_greenmag_ammo_jhp_short">
+                <English>JHP</English>
+                <Russian>Эксп.</Russian>
+                <German>JHP</German>
+            </Key>
+            <Key ID="STR_cvo_compats_common_greenmag_ammo_match_short">
+                <English>Match</English>
+                <Russian>Снайп.</Russian>
+                <German>Präz.</German>
+            </Key>
+            <Key ID="STR_cvo_compats_common_greenmag_ammo_subsonic_short">
+                <English>SD</English>
+                <Russian>УС</Russian>
+                <German>Unterschallmunition</German>
+            </Key>
+            <Key ID="STR_cvo_compats_common_greenmag_ammo_tracer_short">
+                <English>Tracer</English>
+                <Russian>Трассер</Russian>
+                <German>Leuchtsp.</German>
             </Key>
         </Container>
     </Package>
