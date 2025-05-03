@@ -1,6 +1,6 @@
 class GVAR(ammo_762x39_subsonic_1rnd): GVAR(ammo_core_1rnd) {
-    displayName = __EVAL(format [LLSTRING(ammo_Complex_mm_Name), "7.62x39", 1, LLSTRING(ammo_subsonic_Short)]);
-    descriptionShort = __EVAL(format [LLSTRING(ammo_Complex_mm_Desc), "7.62x39", LLSTRING(ammo_subsonic_Full)]);
+    displayName = __EVAL(format [LLSTRING(ammo_Complex_mm_Name), "7.62x39", 1, LLSTRING(ammo_subsonic_short)]);
+    descriptionShort = __EVAL(format [LLSTRING(ammo_Complex_mm_Desc), "7.62x39", LLSTRING(ammo_subsonic_full)]);
 
     picture = "\z\greenmag\addons\main\data\556mm.paa";
 
@@ -12,7 +12,8 @@ class GVAR(ammo_762x39_subsonic_1rnd): GVAR(ammo_core_1rnd) {
 };
 
 class GVAR(ammo_762x39_subsonic_10rnd): GVAR(ammo_core_10rnd) {
-    displayName = __EVAL(format [LLSTRING(ammo_Complex_mm_Name), "7.62x39", 10, LLSTRING(ammo_subsonic_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_Complex_mm_Name), "7.62x39", 10, LLSTRING(ammo_subsonic_short)]);
+    descriptionShort = __EVAL(format [LLSTRING(ammo_Complex_mm_Desc), "7.62x39", LLSTRING(ammo_subsonic_full)]);
 
     scope = 2;
 
@@ -24,7 +25,8 @@ class GVAR(ammo_762x39_subsonic_10rnd): GVAR(ammo_core_10rnd) {
 };
 
 class GVAR(ammo_762x39_subsonic_20rnd): GVAR(ammo_core_20rnd) {
-    displayName = __EVAL(format [LLSTRING(ammo_Complex_mm_Name), "7.62x39", 20, LLSTRING(ammo_subsonic_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_Complex_mm_Name), "7.62x39", 20, LLSTRING(ammo_subsonic_short)]);
+    descriptionShort = __EVAL(format [LLSTRING(ammo_Complex_mm_Desc), "7.62x39", LLSTRING(ammo_subsonic_full)]);
 
     scope = 2;
 
@@ -36,7 +38,8 @@ class GVAR(ammo_762x39_subsonic_20rnd): GVAR(ammo_core_20rnd) {
 };
 
 class GVAR(ammo_762x39_subsonic_30rnd): GVAR(ammo_core_30rnd) {
-    displayName = __EVAL(format [LLSTRING(ammo_Complex_mm_Name), "7.62x39", 30, LLSTRING(ammo_subsonic_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_Complex_mm_Name), "7.62x39", 30, LLSTRING(ammo_subsonic_short)]);
+    descriptionShort = __EVAL(format [LLSTRING(ammo_Complex_mm_Desc), "7.62x39", LLSTRING(ammo_subsonic_full)]);
 
     scope = 2;
     scopeArsenal=2;
@@ -50,7 +53,8 @@ class GVAR(ammo_762x39_subsonic_30rnd): GVAR(ammo_core_30rnd) {
 };
 
 class GVAR(ammo_762x39_subsonic_40rnd): GVAR(ammo_core_40rnd) {
-    displayName = __EVAL(format [LLSTRING(ammo_Complex_mm_Name), "7.62x39", 40, LLSTRING(ammo_subsonic_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_Complex_mm_Name), "7.62x39", 40, LLSTRING(ammo_subsonic_short)]);
+    descriptionShort = __EVAL(format [LLSTRING(ammo_Complex_mm_Desc), "7.62x39", LLSTRING(ammo_subsonic_full)]);
 
     scope = 2;
 
@@ -62,7 +66,8 @@ class GVAR(ammo_762x39_subsonic_40rnd): GVAR(ammo_core_40rnd) {
 };
 
 class GVAR(ammo_762x39_subsonic_50rnd): GVAR(ammo_core_50rnd) {
-    displayName = __EVAL(format [LLSTRING(ammo_Complex_mm_Name), "7.62x39", 50, LLSTRING(ammo_subsonic_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_Complex_mm_Name), "7.62x39", 50, LLSTRING(ammo_subsonic_short)]);
+    descriptionShort = __EVAL(format [LLSTRING(ammo_Complex_mm_Desc), "7.62x39", LLSTRING(ammo_subsonic_full)]);
 
     scope = 2;
 
@@ -74,7 +79,8 @@ class GVAR(ammo_762x39_subsonic_50rnd): GVAR(ammo_core_50rnd) {
 };
 
 class GVAR(ammo_762x39_subsonic_60rnd): GVAR(ammo_core_60rnd) {
-    displayName = __EVAL(format [LLSTRING(ammo_Complex_mm_Name), "7.62x39", 60, LLSTRING(ammo_subsonic_Short)]);
+    displayName = __EVAL(format [LLSTRING(ammo_Complex_mm_Name), "7.62x39", 60, LLSTRING(ammo_subsonic_short)]);
+    descriptionShort = __EVAL(format [LLSTRING(ammo_Complex_mm_Desc), "7.62x39", LLSTRING(ammo_subsonic_full)]);
 
     scope = 2;
     scopeArsenal=2;

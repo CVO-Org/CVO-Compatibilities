@@ -13,7 +13,7 @@ class CfgMagazines {
     /////////////
 
     class vn_m16_mag_base: vn_riflemag_base {
-        greenmag_ammo = QEGVAR(common_greenmag,ammo_556x45_FMJ_1Rnd);
+        greenmag_ammo = QEGVAR(common_greenmag,ammo_556x45_fmj_1Rnd);
         greenmag_basicammo = "greenmag_ammo_556x45_basic_1Rnd";
 
         greenmag_canSpeedload = 1;
@@ -38,7 +38,7 @@ class CfgMagazines {
     };
 
     class vn_m63a_100_mag: vn_m16_mag_base {
-        greenmag_ammo = QEGVAR(common_greenmag,belt_556x45_FMJ);
+        greenmag_ammo = QEGVAR(common_greenmag,belt_556x45_fmj);
         greenmag_basicammo = "greenmag_beltlinked_556x45_basic";
 
         greenmag_canSpeedload = 0;
@@ -71,7 +71,7 @@ class CfgMagazines {
     /////////////
 
     class vn_m36_mag: vn_riflemag_base {
-        greenmag_ammo = QEGVAR(common_greenmag,ammo_75x55_FMJ_1Rnd);
+        greenmag_ammo = QEGVAR(common_greenmag,ammo_75x55_fmj_1Rnd);
         greenmag_basicammo = QEGVAR(common_greenmag,ammo_75x55_Basic_1Rnd);
 
         greenmag_canSpeedload = 0;
@@ -83,7 +83,7 @@ class CfgMagazines {
     };
 
     class vn_m4956_10_mag: vn_riflemag_base {
-        greenmag_ammo = QEGVAR(common_greenmag,ammo_75x55_FMJ_1Rnd);
+        greenmag_ammo = QEGVAR(common_greenmag,ammo_75x55_fmj_1Rnd);
         greenmag_basicammo = QEGVAR(common_greenmag,ammo_75x55_Basic_1Rnd);
 
         greenmag_canSpeedload = 0;
@@ -99,7 +99,7 @@ class CfgMagazines {
     ///////////////////////
 
     class vn_carbine_15_mag: vn_riflemag_base {
-        greenmag_ammo = QEGVAR(common_greenmag,ammo_762x33_FMJ_1Rnd);
+        greenmag_ammo = QEGVAR(common_greenmag,ammo_762x33_fmj_1Rnd);
         greenmag_basicammo = QEGVAR(common_greenmag,ammo_762x33_Basic_1Rnd);
 
         greenmag_canSpeedload = 1;
@@ -111,7 +111,7 @@ class CfgMagazines {
     };
 
     class vn_carbine_30_mag: vn_riflemag_base {
-        greenmag_ammo = QEGVAR(common_greenmag,ammo_762x33_FMJ_1Rnd);
+        greenmag_ammo = QEGVAR(common_greenmag,ammo_762x33_fmj_1Rnd);
         greenmag_basicammo = QEGVAR(common_greenmag,ammo_762x33_Basic_1Rnd);
 
         greenmag_canSpeedload = 1;
@@ -127,7 +127,7 @@ class CfgMagazines {
     /////////////
 
     class vn_type56_mag: vn_riflemag_base {
-        greenmag_ammo = QEGVAR(common_greenmag,ammo_762x39_FMJ_1Rnd);
+        greenmag_ammo = QEGVAR(common_greenmag,ammo_762x39_fmj_1Rnd);
         greenmag_basicammo = "greenmag_ammo_762x39_basic_1Rnd";
 
         greenmag_canSpeedload = 1;
@@ -143,7 +143,7 @@ class CfgMagazines {
     };
 
     class vn_sks_mag: vn_riflemag_base {
-        greenmag_ammo = QEGVAR(common_greenmag,ammo_762x39_FMJ_1Rnd);
+        greenmag_ammo = QEGVAR(common_greenmag,ammo_762x39_fmj_1Rnd);
         greenmag_basicammo = "greenmag_ammo_762x39_basic_1Rnd";
 
         greenmag_canSpeedload = 1;
@@ -155,7 +155,7 @@ class CfgMagazines {
     };
 
     class vn_rpd_100_mag: vn_lmgmag_base {
-        greenmag_ammo = QEGVAR(common_greenmag,belt_762x39_FMJ);
+        greenmag_ammo = QEGVAR(common_greenmag,belt_762x39_fmj);
         greenmag_basicammo = QEGVAR(common_greenmag,belt_762x39_basic);
 
         greenmag_canSpeedload = 0;
@@ -167,7 +167,7 @@ class CfgMagazines {
     /////////////
 
     class vn_m14_mag: vn_riflemag_base {
-        greenmag_ammo = QEGVAR(common_greenmag,ammo_762x51_FMJ_1Rnd);
+        greenmag_ammo = QEGVAR(common_greenmag,ammo_762x51_fmj_1Rnd);
         greenmag_basicammo = "greenmag_ammo_762x51_basic_1Rnd";
 
         greenmag_canSpeedload = 1;
@@ -179,7 +179,7 @@ class CfgMagazines {
     };
 
     class vn_l1a1_10_mag: vn_riflemag_base {
-        greenmag_ammo = QEGVAR(common_greenmag,ammo_762x51_FMJ_1Rnd);
+        greenmag_ammo = QEGVAR(common_greenmag,ammo_762x51_fmj_1Rnd);
         greenmag_basicammo = "greenmag_ammo_762x51_basic_1Rnd";
 
         greenmag_canSpeedload = 1;
@@ -206,7 +206,7 @@ class CfgMagazines {
     };
 
     class vn_m40a1_mag: vn_riflemag_base {
-        greenmag_ammo = QEGVAR(common_greenmag,ammo_762x51_FMJ_1Rnd);
+        greenmag_ammo = QEGVAR(common_greenmag,ammo_762x51_fmj_1Rnd);
         greenmag_basicammo = "greenmag_ammo_762x51_basic_1Rnd";
 
         greenmag_canSpeedload = 0;
@@ -218,7 +218,7 @@ class CfgMagazines {
     };
 
     class vn_m60_100_mag: vn_lmgmag_base {
-        greenmag_ammo = QEGVAR(common_greenmag,belt_762x51_FMJ);
+        greenmag_ammo = QEGVAR(common_greenmag,belt_762x51_fmj);
         greenmag_basicammo = "greenmag_beltlinked_762x51_basic";
 
         greenmag_canSpeedload = 0;
@@ -230,7 +230,7 @@ class CfgMagazines {
     /////////////
 
     class vn_dp28_mag: vn_lmgmag_base {
-        greenmag_ammo = QEGVAR(common_greenmag,ammo_762x54_FMJ_1Rnd);
+        greenmag_ammo = QEGVAR(common_greenmag,ammo_762x54_fmj_1Rnd);
         greenmag_basicammo = "greenmag_ammo_762x54_basic_1Rnd";
 
         greenmag_canSpeedload = 0;
@@ -238,7 +238,7 @@ class CfgMagazines {
     };
 
     class vn_m38_mag: vn_riflemag_base {
-        greenmag_ammo = QEGVAR(common_greenmag,ammo_762x54_FMJ_1Rnd);
+        greenmag_ammo = QEGVAR(common_greenmag,ammo_762x54_fmj_1Rnd);
         greenmag_basicammo = "greenmag_ammo_762x54_basic_1Rnd";
 
         greenmag_canSpeedload = 0;
@@ -250,7 +250,7 @@ class CfgMagazines {
     };
 
     class vn_svd_mag: vn_riflemag_base {
-        greenmag_ammo = QEGVAR(common_greenmag,ammo_762x54_FMJ_1Rnd);
+        greenmag_ammo = QEGVAR(common_greenmag,ammo_762x54_fmj_1Rnd);
         greenmag_basicammo = "greenmag_ammo_762x54_basic_1Rnd";
 
         greenmag_canSpeedload = 0;
@@ -262,7 +262,7 @@ class CfgMagazines {
     };
 
     class vn_pk_100_mag: vn_lmgmag_base {
-        greenmag_ammo = QEGVAR(common_greenmag,belt_762x54_FMJ);
+        greenmag_ammo = QEGVAR(common_greenmag,belt_762x54_fmj);
         greenmag_basicammo = "greenmag_beltlinked_762x54_basic";
 
         greenmag_canSpeedload = 0;
@@ -274,7 +274,7 @@ class CfgMagazines {
     /////////////
     
     class vn_m1_garand_mag: vn_riflemag_base {
-        greenmag_ammo = QEGVAR(common_greenmag,ammo_762x63_AP_1Rnd);
+        greenmag_ammo = QEGVAR(common_greenmag,ammo_762x63_ap_1Rnd);
         greenmag_basicammo = QEGVAR(common_greenmag,ammo_762x63_Basic_1Rnd);
 
         greenmag_canSpeedload = 0;
@@ -286,7 +286,7 @@ class CfgMagazines {
     };
 
     class vn_m1903_mag: vn_riflemag_base {
-        greenmag_ammo = QEGVAR(common_greenmag,ammo_762x63_AP_1Rnd);
+        greenmag_ammo = QEGVAR(common_greenmag,ammo_762x63_ap_1Rnd);
         greenmag_basicammo = QEGVAR(common_greenmag,ammo_762x63_Basic_1Rnd);
 
         greenmag_canSpeedload = 0;
@@ -298,7 +298,7 @@ class CfgMagazines {
     };
 
     class vn_m1918_mag: vn_lmgmag_base {
-        greenmag_ammo = QEGVAR(common_greenmag,ammo_762x63_AP_1Rnd);
+        greenmag_ammo = QEGVAR(common_greenmag,ammo_762x63_ap_1Rnd);
         greenmag_basicammo = QEGVAR(common_greenmag,ammo_762x63_Basic_1Rnd);
 
         greenmag_canSpeedload = 0;
@@ -314,7 +314,7 @@ class CfgMagazines {
     /////////////
 
     class vn_k98k_mag: vn_riflemag_base {
-        greenmag_ammo = QEGVAR(common_greenmag,ammo_792x57_FMJ_1Rnd);
+        greenmag_ammo = QEGVAR(common_greenmag,ammo_792x57_fmj_1Rnd);
         greenmag_basicammo = QEGVAR(common_greenmag,ammo_792x57_Basic_1Rnd);
 
         greenmag_canSpeedload = 0;
@@ -326,7 +326,7 @@ class CfgMagazines {
     };
 
     class vn_mg42_50_mag: vn_lmgmag_base {
-        greenmag_ammo = QEGVAR(common_greenmag,belt_792x57_FMJ);
+        greenmag_ammo = QEGVAR(common_greenmag,belt_792x57_fmj);
         greenmag_basicammo = QEGVAR(common_greenmag,belt_792x57_Basic);
 
         greenmag_canSpeedload = 0;
@@ -362,7 +362,7 @@ class CfgMagazines {
     //////////
 
     class vn_f1_smg_mag: vn_smgmag_base {
-        greenmag_ammo = QEGVAR(common_greenmag,ammo_9x19_FMJ_1Rnd);
+        greenmag_ammo = QEGVAR(common_greenmag,ammo_9x19_fmj_1Rnd);
         greenmag_basicammo = "greenmag_ammo_9x19_basic_1Rnd";
 
         greenmag_canSpeedload = 1;
@@ -374,7 +374,7 @@ class CfgMagazines {
     };
 
     class vn_l34a1_smg_mag: vn_smgmag_base {
-        greenmag_ammo = QEGVAR(common_greenmag,ammo_9x19_FMJ_1Rnd);
+        greenmag_ammo = QEGVAR(common_greenmag,ammo_9x19_fmj_1Rnd);
         greenmag_basicammo = "greenmag_ammo_9x19_basic_1Rnd";
 
         greenmag_canSpeedload = 1;
@@ -386,7 +386,7 @@ class CfgMagazines {
     };
 
     class vn_mat49_mag: vn_smgmag_base {
-        greenmag_ammo = QEGVAR(common_greenmag,ammo_9x19_FMJ_1Rnd);
+        greenmag_ammo = QEGVAR(common_greenmag,ammo_9x19_fmj_1Rnd);
         greenmag_basicammo = "greenmag_ammo_9x19_basic_1Rnd";
 
         greenmag_canSpeedload = 1;
@@ -398,7 +398,7 @@ class CfgMagazines {
     };
 
     class vn_mc10_mag: vn_smgmag_base {
-        greenmag_ammo = QEGVAR(common_greenmag,ammo_9x19_FMJ_1Rnd);
+        greenmag_ammo = QEGVAR(common_greenmag,ammo_9x19_fmj_1Rnd);
         greenmag_basicammo = "greenmag_ammo_9x19_basic_1Rnd";
 
         greenmag_canSpeedload = 1;
@@ -410,7 +410,7 @@ class CfgMagazines {
     };
 
     class vn_mp40_mag: vn_smgmag_base {
-        greenmag_ammo = QEGVAR(common_greenmag,ammo_9x19_FMJ_1Rnd);
+        greenmag_ammo = QEGVAR(common_greenmag,ammo_9x19_fmj_1Rnd);
         greenmag_basicammo = "greenmag_ammo_9x19_basic_1Rnd";
 
         greenmag_canSpeedload = 1;
@@ -422,7 +422,7 @@ class CfgMagazines {
     };
 
     class vn_mpu_mag: vn_smgmag_base {
-        greenmag_ammo = QEGVAR(common_greenmag,ammo_9x19_FMJ_1Rnd);
+        greenmag_ammo = QEGVAR(common_greenmag,ammo_9x19_fmj_1Rnd);
         greenmag_basicammo = "greenmag_ammo_9x19_basic_1Rnd";
 
         greenmag_canSpeedload = 1;
@@ -434,7 +434,7 @@ class CfgMagazines {
     };
 
     class vn_sten_mag: vn_smgmag_base {
-        greenmag_ammo = QEGVAR(common_greenmag,ammo_9x19_FMJ_1Rnd);
+        greenmag_ammo = QEGVAR(common_greenmag,ammo_9x19_fmj_1Rnd);
         greenmag_basicammo = "greenmag_ammo_9x19_basic_1Rnd";
 
         greenmag_canSpeedload = 1;
@@ -446,7 +446,7 @@ class CfgMagazines {
     };
 
     class vn_hp_mag: vn_pistolmag_base {
-        greenmag_ammo = QEGVAR(common_greenmag,ammo_9x19_FMJ_1Rnd);
+        greenmag_ammo = QEGVAR(common_greenmag,ammo_9x19_fmj_1Rnd);
         greenmag_basicammo = "greenmag_ammo_9x19_basic_1Rnd";
 
         greenmag_canSpeedload = 1;
@@ -454,7 +454,7 @@ class CfgMagazines {
     };
 
     class vn_mk22_mag: vn_pistolmag_base {
-        greenmag_ammo = QEGVAR(common_greenmag,ammo_9x19_FMJ_1Rnd);
+        greenmag_ammo = QEGVAR(common_greenmag,ammo_9x19_fmj_1Rnd);
         greenmag_basicammo = "greenmag_ammo_9x19_basic_1Rnd";
 
         greenmag_canSpeedload = 1;
@@ -462,7 +462,7 @@ class CfgMagazines {
     };
 
     class vn_p38_mag: vn_pistolmag_base {
-        greenmag_ammo = QEGVAR(common_greenmag,ammo_9x19_FMJ_1Rnd);
+        greenmag_ammo = QEGVAR(common_greenmag,ammo_9x19_fmj_1Rnd);
         greenmag_basicammo = "greenmag_ammo_9x19_basic_1Rnd";
 
         greenmag_canSpeedload = 1;
@@ -547,7 +547,7 @@ class CfgMagazines {
     /////////////
 
     class vn_pps_mag: vn_smgmag_base {
-        greenmag_ammo = QEGVAR(common_greenmag,ammo_762x25_FMJ_1Rnd);
+        greenmag_ammo = QEGVAR(common_greenmag,ammo_762x25_fmj_1Rnd);
         greenmag_basicammo = QEGVAR(common_greenmag,ammo_762x25_Basic_1Rnd);
 
         greenmag_canSpeedload = 1;
@@ -564,7 +564,7 @@ class CfgMagazines {
     };
 
     class vn_ppsh41_71_mag: vn_smgmag_base {
-        greenmag_ammo = QEGVAR(common_greenmag,ammo_762x25_FMJ_1Rnd);
+        greenmag_ammo = QEGVAR(common_greenmag,ammo_762x25_fmj_1Rnd);
         greenmag_basicammo = QEGVAR(common_greenmag,ammo_762x25_Basic_1Rnd);
 
         greenmag_canSpeedload = 0;
@@ -576,7 +576,7 @@ class CfgMagazines {
     };
 
     class vn_mat49_vc_mag: vn_mat49_mag {
-        greenmag_ammo = QEGVAR(common_greenmag,ammo_762x25_FMJ_1Rnd);
+        greenmag_ammo = QEGVAR(common_greenmag,ammo_762x25_fmj_1Rnd);
         greenmag_basicammo = QEGVAR(common_greenmag,ammo_762x25_Basic_1Rnd);
 
         greenmag_canSpeedload = 1;
@@ -588,7 +588,7 @@ class CfgMagazines {
     };
 
     class vn_m712_mag: vn_pistolmag_base {
-        greenmag_ammo = QEGVAR(common_greenmag,ammo_762x25_FMJ_1Rnd);
+        greenmag_ammo = QEGVAR(common_greenmag,ammo_762x25_fmj_1Rnd);
         greenmag_basicammo = QEGVAR(common_greenmag,ammo_762x25_Basic_1Rnd);
 
         greenmag_canSpeedload = 1;
@@ -596,7 +596,7 @@ class CfgMagazines {
     };
 
     class vn_tt33_mag: vn_pistolmag_base {
-        greenmag_ammo = QEGVAR(common_greenmag,ammo_762x25_FMJ_1Rnd);
+        greenmag_ammo = QEGVAR(common_greenmag,ammo_762x25_fmj_1Rnd);
         greenmag_basicammo = QEGVAR(common_greenmag,ammo_762x25_Basic_1Rnd);
 
         greenmag_canSpeedload = 1;
@@ -607,20 +607,8 @@ class CfgMagazines {
     // 7.65x17 (.32 ACP) //
     ///////////////////////
 
-    class vn_mat49_vc_mag: vn_mat49_mag { 
-        greenmag_ammo = QEGVAR(common_greenmag,ammo_765x17_FMJ_1Rnd);
-        greenmag_basicammo = QEGVAR(common_greenmag,ammo_765x17_Basic_1Rnd);
-
-        greenmag_canSpeedload = 1;
-        greenmag_needBelt = 0;
-    };
-
-    class vn_mat49_vc_t_mag: vn_mat49_vc_mag {
-        greenmag_basicammo = QEGVAR(common_greenmag,ammo_765x17_Tracer_1Rnd);
-    };
-
     class vn_type64_smg_mag: vn_smgmag_base {
-        greenmag_ammo = QEGVAR(common_greenmag,ammo_765x17_FMJ_1Rnd);
+        greenmag_ammo = QEGVAR(common_greenmag,ammo_765x17_fmj_1Rnd);
         greenmag_basicammo = QEGVAR(common_greenmag,ammo_765x17_Basic_1Rnd);
 
         greenmag_canSpeedload = 1;
@@ -632,7 +620,7 @@ class CfgMagazines {
     };
 
     class vn_vz61_mag: vn_smgmag_base {
-        greenmag_ammo = QEGVAR(common_greenmag,ammo_765x17_FMJ_1Rnd);
+        greenmag_ammo = QEGVAR(common_greenmag,ammo_765x17_fmj_1Rnd);
         greenmag_basicammo = QEGVAR(common_greenmag,ammo_765x17_Basic_1Rnd);
 
         greenmag_canSpeedload = 1;
@@ -644,7 +632,7 @@ class CfgMagazines {
     };
 
     class vn_type64_mag: vn_pistolmag_base {
-        greenmag_ammo = QEGVAR(common_greenmag,ammo_765x17_FMJ_1Rnd);
+        greenmag_ammo = QEGVAR(common_greenmag,ammo_765x17_fmj_1Rnd);
         greenmag_basicammo = QEGVAR(common_greenmag,ammo_765x17_Basic_1Rnd);
 
         greenmag_canSpeedload = 1;
@@ -652,7 +640,7 @@ class CfgMagazines {
     };
 
     class vn_welrod_mag: vn_pistolmag_base {
-        greenmag_ammo = QEGVAR(common_greenmag,ammo_765x17_FMJ_1Rnd);
+        greenmag_ammo = QEGVAR(common_greenmag,ammo_765x17_fmj_1Rnd);
         greenmag_basicammo = QEGVAR(common_greenmag,ammo_765x17_Basic_1Rnd);
 
         greenmag_canSpeedload = 1;

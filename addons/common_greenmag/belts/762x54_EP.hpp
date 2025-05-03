@@ -1,11 +1,11 @@
-class GVAR(belt_core_762x54_EP): GVAR(belt_core) {
+class GVAR(belt_core_762x54_ep): GVAR(belt_core) {
     displayName = "762x54 EP Belt Core";
 
-    greenmag_ammo = QGVAR(ammo_762x54_EP_1Rnd);
+    greenmag_ammo = QGVAR(ammo_762x54_ep_1Rnd);
     greenmag_basicammo = "greenmag_ammo_762x54_basic_1Rnd";
     
-    greenmag_item = QGVAR(belt_762x54_EP);
-    greenmag_typeName = "762x54_EP";
+    greenmag_item = QGVAR(belt_762x54_ep);
+    greenmag_typeName = "762x54_ep";
 
     class ItemInfo: CBA_MiscItem_ItemInfo {
         mass = 0.48;
@@ -14,8 +14,8 @@ class GVAR(belt_core_762x54_EP): GVAR(belt_core) {
 
 
 
-class GVAR(belt_762x54_EP_1): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 1, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_1): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 1, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 1;
 
@@ -24,8 +24,8 @@ class GVAR(belt_762x54_EP_1): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_2): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 2, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_2): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 2, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 2;
 
@@ -34,8 +34,8 @@ class GVAR(belt_762x54_EP_2): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_3): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 3, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_3): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 3, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 3;
 
@@ -44,8 +44,8 @@ class GVAR(belt_762x54_EP_3): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_4): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 4, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_4): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 4, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 4;
 
@@ -54,8 +54,8 @@ class GVAR(belt_762x54_EP_4): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_5): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 5, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_5): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 5, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 5;
 
@@ -64,8 +64,8 @@ class GVAR(belt_762x54_EP_5): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_6): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 6, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_6): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 6, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 6;
 
@@ -74,8 +74,8 @@ class GVAR(belt_762x54_EP_6): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_7): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 7, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_7): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 7, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 7;
 
@@ -84,8 +84,8 @@ class GVAR(belt_762x54_EP_7): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_8): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 8, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_8): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 8, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 8;
 
@@ -94,8 +94,8 @@ class GVAR(belt_762x54_EP_8): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_9): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 9, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_9): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 9, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 9;
 
@@ -104,8 +104,8 @@ class GVAR(belt_762x54_EP_9): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_10): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 10, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_10): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 10, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 10;
 
@@ -114,8 +114,8 @@ class GVAR(belt_762x54_EP_10): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_11): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 11, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_11): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 11, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 11;
 
@@ -124,8 +124,8 @@ class GVAR(belt_762x54_EP_11): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_12): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 12, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_12): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 12, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 12;
 
@@ -134,8 +134,8 @@ class GVAR(belt_762x54_EP_12): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_13): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 13, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_13): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 13, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 13;
 
@@ -144,8 +144,8 @@ class GVAR(belt_762x54_EP_13): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_14): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 14, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_14): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 14, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 14;
 
@@ -154,8 +154,8 @@ class GVAR(belt_762x54_EP_14): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_15): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 15, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_15): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 15, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 15;
 
@@ -164,8 +164,8 @@ class GVAR(belt_762x54_EP_15): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_16): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 16, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_16): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 16, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 16;
 
@@ -174,8 +174,8 @@ class GVAR(belt_762x54_EP_16): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_17): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 17, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_17): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 17, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 17;
 
@@ -184,8 +184,8 @@ class GVAR(belt_762x54_EP_17): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_18): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 18, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_18): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 18, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 18;
 
@@ -194,8 +194,8 @@ class GVAR(belt_762x54_EP_18): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_19): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 19, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_19): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 19, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 19;
 
@@ -204,8 +204,8 @@ class GVAR(belt_762x54_EP_19): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_20): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 20, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_20): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 20, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 20;
 
@@ -214,8 +214,8 @@ class GVAR(belt_762x54_EP_20): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_21): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 21, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_21): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 21, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 21;
 
@@ -224,8 +224,8 @@ class GVAR(belt_762x54_EP_21): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_22): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 22, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_22): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 22, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 22;
 
@@ -234,8 +234,8 @@ class GVAR(belt_762x54_EP_22): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_23): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 23, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_23): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 23, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 23;
 
@@ -244,8 +244,8 @@ class GVAR(belt_762x54_EP_23): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_24): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 24, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_24): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 24, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 24;
 
@@ -254,8 +254,8 @@ class GVAR(belt_762x54_EP_24): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_25): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 25, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_25): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 25, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 25;
 
@@ -264,8 +264,8 @@ class GVAR(belt_762x54_EP_25): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_26): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 26, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_26): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 26, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 26;
 
@@ -274,8 +274,8 @@ class GVAR(belt_762x54_EP_26): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_27): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 27, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_27): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 27, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 27;
 
@@ -284,8 +284,8 @@ class GVAR(belt_762x54_EP_27): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_28): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 28, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_28): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 28, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 28;
 
@@ -294,8 +294,8 @@ class GVAR(belt_762x54_EP_28): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_29): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 29, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_29): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 29, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 29;
 
@@ -304,8 +304,8 @@ class GVAR(belt_762x54_EP_29): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_30): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 30, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_30): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 30, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 30;
 
@@ -314,8 +314,8 @@ class GVAR(belt_762x54_EP_30): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_31): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 31, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_31): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 31, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 31;
 
@@ -324,8 +324,8 @@ class GVAR(belt_762x54_EP_31): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_32): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 32, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_32): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 32, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 32;
 
@@ -334,8 +334,8 @@ class GVAR(belt_762x54_EP_32): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_33): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 33, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_33): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 33, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 33;
 
@@ -344,8 +344,8 @@ class GVAR(belt_762x54_EP_33): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_34): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 34, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_34): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 34, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 34;
 
@@ -354,8 +354,8 @@ class GVAR(belt_762x54_EP_34): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_35): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 35, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_35): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 35, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 35;
 
@@ -364,8 +364,8 @@ class GVAR(belt_762x54_EP_35): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_36): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 36, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_36): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 36, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 36;
 
@@ -374,8 +374,8 @@ class GVAR(belt_762x54_EP_36): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_37): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 37, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_37): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 37, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 37;
 
@@ -384,8 +384,8 @@ class GVAR(belt_762x54_EP_37): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_38): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 38, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_38): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 38, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 38;
 
@@ -394,8 +394,8 @@ class GVAR(belt_762x54_EP_38): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_39): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 39, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_39): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 39, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 39;
 
@@ -404,8 +404,8 @@ class GVAR(belt_762x54_EP_39): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_40): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 40, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_40): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 40, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 40;
 
@@ -414,8 +414,8 @@ class GVAR(belt_762x54_EP_40): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_41): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 41, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_41): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 41, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 41;
 
@@ -424,8 +424,8 @@ class GVAR(belt_762x54_EP_41): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_42): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 42, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_42): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 42, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 42;
 
@@ -434,8 +434,8 @@ class GVAR(belt_762x54_EP_42): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_43): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 43, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_43): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 43, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 43;
 
@@ -444,8 +444,8 @@ class GVAR(belt_762x54_EP_43): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_44): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 44, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_44): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 44, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 44;
 
@@ -454,8 +454,8 @@ class GVAR(belt_762x54_EP_44): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_45): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 45, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_45): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 45, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 45;
 
@@ -464,8 +464,8 @@ class GVAR(belt_762x54_EP_45): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_46): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 46, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_46): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 46, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 46;
 
@@ -474,8 +474,8 @@ class GVAR(belt_762x54_EP_46): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_47): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 47, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_47): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 47, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 47;
 
@@ -484,8 +484,8 @@ class GVAR(belt_762x54_EP_47): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_48): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 48, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_48): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 48, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 48;
 
@@ -494,8 +494,8 @@ class GVAR(belt_762x54_EP_48): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_49): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 49, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_49): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 49, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 49;
 
@@ -504,8 +504,8 @@ class GVAR(belt_762x54_EP_49): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_50): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 50, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_50): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 50, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 50;
 
@@ -518,8 +518,8 @@ class GVAR(belt_762x54_EP_50): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_51): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 51, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_51): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 51, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 51;
 
@@ -528,8 +528,8 @@ class GVAR(belt_762x54_EP_51): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_52): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 52, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_52): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 52, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 52;
 
@@ -538,8 +538,8 @@ class GVAR(belt_762x54_EP_52): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_53): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 53, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_53): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 53, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 53;
 
@@ -548,8 +548,8 @@ class GVAR(belt_762x54_EP_53): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_54): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 54, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_54): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 54, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 54;
 
@@ -558,8 +558,8 @@ class GVAR(belt_762x54_EP_54): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_55): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 55, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_55): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 55, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 55;
 
@@ -568,8 +568,8 @@ class GVAR(belt_762x54_EP_55): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_56): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 56, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_56): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 56, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 56;
 
@@ -578,8 +578,8 @@ class GVAR(belt_762x54_EP_56): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_57): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 57, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_57): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 57, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 57;
 
@@ -588,8 +588,8 @@ class GVAR(belt_762x54_EP_57): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_58): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 58, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_58): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 58, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 58;
 
@@ -598,8 +598,8 @@ class GVAR(belt_762x54_EP_58): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_59): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 59, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_59): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 59, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 59;
 
@@ -608,8 +608,8 @@ class GVAR(belt_762x54_EP_59): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_60): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 60, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_60): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 60, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 60;
 
@@ -618,8 +618,8 @@ class GVAR(belt_762x54_EP_60): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_61): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 61, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_61): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 61, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 61;
 
@@ -628,8 +628,8 @@ class GVAR(belt_762x54_EP_61): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_62): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 62, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_62): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 62, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 62;
 
@@ -638,8 +638,8 @@ class GVAR(belt_762x54_EP_62): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_63): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 63, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_63): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 63, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 63;
 
@@ -648,8 +648,8 @@ class GVAR(belt_762x54_EP_63): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_64): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 64, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_64): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 64, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 64;
 
@@ -658,8 +658,8 @@ class GVAR(belt_762x54_EP_64): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_65): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 65, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_65): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 65, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 65;
 
@@ -668,8 +668,8 @@ class GVAR(belt_762x54_EP_65): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_66): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 66, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_66): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 66, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 66;
 
@@ -678,8 +678,8 @@ class GVAR(belt_762x54_EP_66): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_67): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 67, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_67): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 67, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 67;
 
@@ -688,8 +688,8 @@ class GVAR(belt_762x54_EP_67): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_68): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 68, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_68): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 68, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 68;
 
@@ -698,8 +698,8 @@ class GVAR(belt_762x54_EP_68): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_69): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 69, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_69): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 69, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 69;
 
@@ -708,8 +708,8 @@ class GVAR(belt_762x54_EP_69): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_70): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 70, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_70): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 70, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 70;
 
@@ -718,8 +718,8 @@ class GVAR(belt_762x54_EP_70): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_71): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 71, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_71): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 71, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 71;
 
@@ -728,8 +728,8 @@ class GVAR(belt_762x54_EP_71): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_72): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 72, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_72): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 72, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 72;
 
@@ -738,8 +738,8 @@ class GVAR(belt_762x54_EP_72): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_73): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 73, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_73): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 73, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 73;
 
@@ -748,8 +748,8 @@ class GVAR(belt_762x54_EP_73): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_74): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 74, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_74): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 74, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 74;
 
@@ -758,8 +758,8 @@ class GVAR(belt_762x54_EP_74): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_75): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 75, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_75): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 75, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 75;
 
@@ -768,8 +768,8 @@ class GVAR(belt_762x54_EP_75): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_76): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 76, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_76): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 76, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 76;
 
@@ -778,8 +778,8 @@ class GVAR(belt_762x54_EP_76): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_77): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 77, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_77): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 77, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 77;
 
@@ -788,8 +788,8 @@ class GVAR(belt_762x54_EP_77): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_78): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 78, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_78): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 78, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 78;
 
@@ -798,8 +798,8 @@ class GVAR(belt_762x54_EP_78): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_79): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 79, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_79): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 79, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 79;
 
@@ -808,8 +808,8 @@ class GVAR(belt_762x54_EP_79): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_80): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 80, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_80): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 80, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 80;
 
@@ -818,8 +818,8 @@ class GVAR(belt_762x54_EP_80): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_81): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 81, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_81): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 81, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 81;
 
@@ -828,8 +828,8 @@ class GVAR(belt_762x54_EP_81): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_82): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 82, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_82): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 82, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 82;
 
@@ -838,8 +838,8 @@ class GVAR(belt_762x54_EP_82): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_83): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 83, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_83): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 83, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 83;
 
@@ -848,8 +848,8 @@ class GVAR(belt_762x54_EP_83): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_84): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 84, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_84): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 84, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 84;
 
@@ -858,8 +858,8 @@ class GVAR(belt_762x54_EP_84): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_85): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 85, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_85): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 85, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 85;
 
@@ -868,8 +868,8 @@ class GVAR(belt_762x54_EP_85): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_86): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 86, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_86): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 86, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 86;
 
@@ -878,8 +878,8 @@ class GVAR(belt_762x54_EP_86): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_87): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 87, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_87): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 87, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 87;
 
@@ -888,8 +888,8 @@ class GVAR(belt_762x54_EP_87): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_88): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 88, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_88): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 88, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 88;
 
@@ -898,8 +898,8 @@ class GVAR(belt_762x54_EP_88): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_89): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 89, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_89): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 89, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 89;
 
@@ -908,8 +908,8 @@ class GVAR(belt_762x54_EP_89): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_90): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 90, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_90): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 90, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 90;
 
@@ -918,8 +918,8 @@ class GVAR(belt_762x54_EP_90): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_91): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 91, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_91): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 91, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 91;
 
@@ -928,8 +928,8 @@ class GVAR(belt_762x54_EP_91): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_92): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 92, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_92): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 92, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 92;
 
@@ -938,8 +938,8 @@ class GVAR(belt_762x54_EP_92): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_93): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 93, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_93): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 93, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 93;
 
@@ -948,8 +948,8 @@ class GVAR(belt_762x54_EP_93): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_94): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 94, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_94): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 94, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 94;
 
@@ -958,8 +958,8 @@ class GVAR(belt_762x54_EP_94): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_95): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 95, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_95): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 95, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 95;
 
@@ -968,8 +968,8 @@ class GVAR(belt_762x54_EP_95): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_96): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 96, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_96): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 96, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 96;
 
@@ -978,8 +978,8 @@ class GVAR(belt_762x54_EP_96): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_97): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 97, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_97): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 97, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 97;
 
@@ -988,8 +988,8 @@ class GVAR(belt_762x54_EP_97): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_98): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 98, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_98): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 98, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 98;
 
@@ -998,8 +998,8 @@ class GVAR(belt_762x54_EP_98): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_99): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 99, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_99): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 99, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 99;
 
@@ -1008,8 +1008,8 @@ class GVAR(belt_762x54_EP_99): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_100): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 100, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_100): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 100, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 100;
 
@@ -1021,8 +1021,8 @@ class GVAR(belt_762x54_EP_100): GVAR(belt_core_762x54_EP) {
         mass = 48.0;
     };
 };
-class GVAR(belt_762x54_EP_101): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 101, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_101): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 101, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 101;
 
@@ -1031,8 +1031,8 @@ class GVAR(belt_762x54_EP_101): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_102): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 102, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_102): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 102, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 102;
 
@@ -1041,8 +1041,8 @@ class GVAR(belt_762x54_EP_102): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_103): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 103, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_103): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 103, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 103;
 
@@ -1051,8 +1051,8 @@ class GVAR(belt_762x54_EP_103): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_104): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 104, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_104): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 104, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 104;
 
@@ -1061,8 +1061,8 @@ class GVAR(belt_762x54_EP_104): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_105): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 105, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_105): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 105, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 105;
 
@@ -1071,8 +1071,8 @@ class GVAR(belt_762x54_EP_105): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_106): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 106, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_106): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 106, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 106;
 
@@ -1081,8 +1081,8 @@ class GVAR(belt_762x54_EP_106): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_107): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 107, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_107): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 107, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 107;
 
@@ -1091,8 +1091,8 @@ class GVAR(belt_762x54_EP_107): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_108): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 108, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_108): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 108, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 108;
 
@@ -1101,8 +1101,8 @@ class GVAR(belt_762x54_EP_108): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_109): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 109, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_109): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 109, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 109;
 
@@ -1111,8 +1111,8 @@ class GVAR(belt_762x54_EP_109): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_110): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 110, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_110): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 110, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 110;
 
@@ -1121,8 +1121,8 @@ class GVAR(belt_762x54_EP_110): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_111): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 111, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_111): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 111, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 111;
 
@@ -1131,8 +1131,8 @@ class GVAR(belt_762x54_EP_111): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_112): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 112, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_112): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 112, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 112;
 
@@ -1141,8 +1141,8 @@ class GVAR(belt_762x54_EP_112): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_113): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 113, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_113): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 113, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 113;
 
@@ -1151,8 +1151,8 @@ class GVAR(belt_762x54_EP_113): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_114): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 114, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_114): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 114, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 114;
 
@@ -1161,8 +1161,8 @@ class GVAR(belt_762x54_EP_114): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_115): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 115, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_115): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 115, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 115;
 
@@ -1171,8 +1171,8 @@ class GVAR(belt_762x54_EP_115): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_116): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 116, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_116): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 116, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 116;
 
@@ -1181,8 +1181,8 @@ class GVAR(belt_762x54_EP_116): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_117): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 117, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_117): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 117, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 117;
 
@@ -1191,8 +1191,8 @@ class GVAR(belt_762x54_EP_117): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_118): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 118, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_118): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 118, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 118;
 
@@ -1201,8 +1201,8 @@ class GVAR(belt_762x54_EP_118): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_119): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 119, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_119): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 119, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 119;
 
@@ -1211,8 +1211,8 @@ class GVAR(belt_762x54_EP_119): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_120): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 120, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_120): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 120, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 120;
 
@@ -1221,8 +1221,8 @@ class GVAR(belt_762x54_EP_120): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_121): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 121, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_121): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 121, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 121;
 
@@ -1231,8 +1231,8 @@ class GVAR(belt_762x54_EP_121): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_122): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 122, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_122): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 122, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 122;
 
@@ -1241,8 +1241,8 @@ class GVAR(belt_762x54_EP_122): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_123): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 123, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_123): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 123, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 123;
 
@@ -1251,8 +1251,8 @@ class GVAR(belt_762x54_EP_123): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_124): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 124, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_124): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 124, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 124;
 
@@ -1261,8 +1261,8 @@ class GVAR(belt_762x54_EP_124): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_125): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 125, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_125): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 125, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 125;
 
@@ -1271,8 +1271,8 @@ class GVAR(belt_762x54_EP_125): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_126): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 126, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_126): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 126, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 126;
 
@@ -1281,8 +1281,8 @@ class GVAR(belt_762x54_EP_126): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_127): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 127, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_127): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 127, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 127;
 
@@ -1291,8 +1291,8 @@ class GVAR(belt_762x54_EP_127): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_128): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 128, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_128): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 128, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 128;
 
@@ -1301,8 +1301,8 @@ class GVAR(belt_762x54_EP_128): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_129): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 129, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_129): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 129, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 129;
 
@@ -1311,8 +1311,8 @@ class GVAR(belt_762x54_EP_129): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_130): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 130, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_130): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 130, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 130;
 
@@ -1321,8 +1321,8 @@ class GVAR(belt_762x54_EP_130): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_131): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 131, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_131): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 131, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 131;
 
@@ -1331,8 +1331,8 @@ class GVAR(belt_762x54_EP_131): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_132): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 132, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_132): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 132, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 132;
 
@@ -1341,8 +1341,8 @@ class GVAR(belt_762x54_EP_132): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_133): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 133, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_133): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 133, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 133;
 
@@ -1351,8 +1351,8 @@ class GVAR(belt_762x54_EP_133): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_134): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 134, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_134): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 134, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 134;
 
@@ -1361,8 +1361,8 @@ class GVAR(belt_762x54_EP_134): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_135): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 135, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_135): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 135, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 135;
 
@@ -1371,8 +1371,8 @@ class GVAR(belt_762x54_EP_135): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_136): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 136, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_136): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 136, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 136;
 
@@ -1381,8 +1381,8 @@ class GVAR(belt_762x54_EP_136): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_137): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 137, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_137): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 137, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 137;
 
@@ -1391,8 +1391,8 @@ class GVAR(belt_762x54_EP_137): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_138): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 138, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_138): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 138, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 138;
 
@@ -1401,8 +1401,8 @@ class GVAR(belt_762x54_EP_138): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_139): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 139, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_139): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 139, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 139;
 
@@ -1411,8 +1411,8 @@ class GVAR(belt_762x54_EP_139): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_140): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 140, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_140): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 140, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 140;
 
@@ -1421,8 +1421,8 @@ class GVAR(belt_762x54_EP_140): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_141): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 141, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_141): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 141, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 141;
 
@@ -1431,8 +1431,8 @@ class GVAR(belt_762x54_EP_141): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_142): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 142, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_142): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 142, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 142;
 
@@ -1441,8 +1441,8 @@ class GVAR(belt_762x54_EP_142): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_143): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 143, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_143): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 143, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 143;
 
@@ -1451,8 +1451,8 @@ class GVAR(belt_762x54_EP_143): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_144): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 144, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_144): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 144, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 144;
 
@@ -1461,8 +1461,8 @@ class GVAR(belt_762x54_EP_144): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_145): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 145, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_145): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 145, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 145;
 
@@ -1471,8 +1471,8 @@ class GVAR(belt_762x54_EP_145): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_146): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 146, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_146): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 146, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 146;
 
@@ -1481,8 +1481,8 @@ class GVAR(belt_762x54_EP_146): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_147): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 147, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_147): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 147, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 147;
 
@@ -1491,8 +1491,8 @@ class GVAR(belt_762x54_EP_147): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_148): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 148, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_148): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 148, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 148;
 
@@ -1501,8 +1501,8 @@ class GVAR(belt_762x54_EP_148): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_149): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 149, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_149): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 149, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 149;
 
@@ -1511,8 +1511,8 @@ class GVAR(belt_762x54_EP_149): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_150): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 150, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_150): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 150, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 150;
 
@@ -1525,8 +1525,8 @@ class GVAR(belt_762x54_EP_150): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_151): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 151, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_151): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 151, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 151;
 
@@ -1535,8 +1535,8 @@ class GVAR(belt_762x54_EP_151): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_152): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 152, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_152): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 152, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 152;
 
@@ -1545,8 +1545,8 @@ class GVAR(belt_762x54_EP_152): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_153): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 153, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_153): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 153, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 153;
 
@@ -1555,8 +1555,8 @@ class GVAR(belt_762x54_EP_153): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_154): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 154, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_154): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 154, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 154;
 
@@ -1565,8 +1565,8 @@ class GVAR(belt_762x54_EP_154): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_155): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 155, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_155): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 155, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 155;
 
@@ -1575,8 +1575,8 @@ class GVAR(belt_762x54_EP_155): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_156): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 156, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_156): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 156, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 156;
 
@@ -1585,8 +1585,8 @@ class GVAR(belt_762x54_EP_156): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_157): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 157, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_157): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 157, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 157;
 
@@ -1595,8 +1595,8 @@ class GVAR(belt_762x54_EP_157): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_158): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 158, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_158): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 158, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 158;
 
@@ -1605,8 +1605,8 @@ class GVAR(belt_762x54_EP_158): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_159): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 159, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_159): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 159, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 159;
 
@@ -1615,8 +1615,8 @@ class GVAR(belt_762x54_EP_159): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_160): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 160, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_160): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 160, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 160;
 
@@ -1625,8 +1625,8 @@ class GVAR(belt_762x54_EP_160): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_161): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 161, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_161): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 161, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 161;
 
@@ -1635,8 +1635,8 @@ class GVAR(belt_762x54_EP_161): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_162): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 162, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_162): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 162, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 162;
 
@@ -1645,8 +1645,8 @@ class GVAR(belt_762x54_EP_162): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_163): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 163, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_163): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 163, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 163;
 
@@ -1655,8 +1655,8 @@ class GVAR(belt_762x54_EP_163): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_164): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 164, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_164): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 164, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 164;
 
@@ -1665,8 +1665,8 @@ class GVAR(belt_762x54_EP_164): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_165): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 165, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_165): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 165, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 165;
 
@@ -1675,8 +1675,8 @@ class GVAR(belt_762x54_EP_165): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_166): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 166, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_166): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 166, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 166;
 
@@ -1685,8 +1685,8 @@ class GVAR(belt_762x54_EP_166): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_167): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 167, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_167): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 167, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 167;
 
@@ -1695,8 +1695,8 @@ class GVAR(belt_762x54_EP_167): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_168): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 168, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_168): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 168, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 168;
 
@@ -1705,8 +1705,8 @@ class GVAR(belt_762x54_EP_168): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_169): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 169, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_169): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 169, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 169;
 
@@ -1715,8 +1715,8 @@ class GVAR(belt_762x54_EP_169): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_170): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 170, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_170): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 170, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 170;
 
@@ -1725,8 +1725,8 @@ class GVAR(belt_762x54_EP_170): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_171): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 171, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_171): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 171, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 171;
 
@@ -1735,8 +1735,8 @@ class GVAR(belt_762x54_EP_171): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_172): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 172, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_172): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 172, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 172;
 
@@ -1745,8 +1745,8 @@ class GVAR(belt_762x54_EP_172): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_173): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 173, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_173): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 173, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 173;
 
@@ -1755,8 +1755,8 @@ class GVAR(belt_762x54_EP_173): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_174): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 174, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_174): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 174, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 174;
 
@@ -1765,8 +1765,8 @@ class GVAR(belt_762x54_EP_174): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_175): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 175, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_175): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 175, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 175;
 
@@ -1775,8 +1775,8 @@ class GVAR(belt_762x54_EP_175): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_176): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 176, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_176): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 176, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 176;
 
@@ -1785,8 +1785,8 @@ class GVAR(belt_762x54_EP_176): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_177): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 177, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_177): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 177, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 177;
 
@@ -1795,8 +1795,8 @@ class GVAR(belt_762x54_EP_177): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_178): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 178, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_178): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 178, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 178;
 
@@ -1805,8 +1805,8 @@ class GVAR(belt_762x54_EP_178): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_179): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 179, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_179): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 179, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 179;
 
@@ -1815,8 +1815,8 @@ class GVAR(belt_762x54_EP_179): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_180): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 180, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_180): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 180, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 180;
 
@@ -1825,8 +1825,8 @@ class GVAR(belt_762x54_EP_180): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_181): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 181, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_181): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 181, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 181;
 
@@ -1835,8 +1835,8 @@ class GVAR(belt_762x54_EP_181): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_182): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 182, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_182): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 182, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 182;
 
@@ -1845,8 +1845,8 @@ class GVAR(belt_762x54_EP_182): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_183): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 183, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_183): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 183, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 183;
 
@@ -1855,8 +1855,8 @@ class GVAR(belt_762x54_EP_183): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_184): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 184, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_184): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 184, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 184;
 
@@ -1865,8 +1865,8 @@ class GVAR(belt_762x54_EP_184): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_185): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 185, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_185): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 185, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 185;
 
@@ -1875,8 +1875,8 @@ class GVAR(belt_762x54_EP_185): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_186): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 186, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_186): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 186, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 186;
 
@@ -1885,8 +1885,8 @@ class GVAR(belt_762x54_EP_186): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_187): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 187, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_187): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 187, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 187;
 
@@ -1895,8 +1895,8 @@ class GVAR(belt_762x54_EP_187): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_188): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 188, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_188): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 188, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 188;
 
@@ -1905,8 +1905,8 @@ class GVAR(belt_762x54_EP_188): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_189): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 189, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_189): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 189, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 189;
 
@@ -1915,8 +1915,8 @@ class GVAR(belt_762x54_EP_189): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_190): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 190, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_190): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 190, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 190;
 
@@ -1925,8 +1925,8 @@ class GVAR(belt_762x54_EP_190): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_191): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 191, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_191): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 191, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 191;
 
@@ -1935,8 +1935,8 @@ class GVAR(belt_762x54_EP_191): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_192): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 192, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_192): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 192, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 192;
 
@@ -1945,8 +1945,8 @@ class GVAR(belt_762x54_EP_192): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_193): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 193, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_193): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 193, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 193;
 
@@ -1955,8 +1955,8 @@ class GVAR(belt_762x54_EP_193): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_194): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 194, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_194): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 194, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 194;
 
@@ -1965,8 +1965,8 @@ class GVAR(belt_762x54_EP_194): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_195): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 195, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_195): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 195, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 195;
 
@@ -1975,8 +1975,8 @@ class GVAR(belt_762x54_EP_195): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_196): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 196, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_196): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 196, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 196;
 
@@ -1985,8 +1985,8 @@ class GVAR(belt_762x54_EP_196): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_197): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 197, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_197): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 197, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 197;
 
@@ -1995,8 +1995,8 @@ class GVAR(belt_762x54_EP_197): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_198): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 198, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_198): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 198, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 198;
 
@@ -2005,8 +2005,8 @@ class GVAR(belt_762x54_EP_198): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_199): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 199, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_199): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 199, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 199;
 
@@ -2015,8 +2015,8 @@ class GVAR(belt_762x54_EP_199): GVAR(belt_core_762x54_EP) {
     };
 };
 
-class GVAR(belt_762x54_EP_200): GVAR(belt_core_762x54_EP) {
-    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 200, LLSTRING(ammo_EP_Short)]);
+class GVAR(belt_762x54_ep_200): GVAR(belt_core_762x54_ep) {
+    displayName = __EVAL(format [LLSTRING(ammo_belt_complex_mm_name), "7.62x54", 200, LLSTRING(ammo_ep_short)]);
     
     greenmag_bullets = 200;
 

@@ -13,6 +13,7 @@ class GVAR(ammo_762x67_basic_1rnd): GVAR(ammo_core_1rnd) {
 
 class GVAR(ammo_762x67_basic_10rnd): GVAR(ammo_core_10rnd) {
     displayName = __EVAL(format [LLSTRING(ammo_basic_in_Name), ".300WM", 10]);
+    descriptionShort = __EVAL(format [LLSTRING(ammo_basic_in_Desc), ".300 Winchester Magnum"]);
 
     scope = 2;
 
@@ -25,6 +26,7 @@ class GVAR(ammo_762x67_basic_10rnd): GVAR(ammo_core_10rnd) {
 
 class GVAR(ammo_762x67_basic_20rnd): GVAR(ammo_core_20rnd) {
     displayName = __EVAL(format [LLSTRING(ammo_basic_in_Name), ".300WM", 20]);
+    descriptionShort = __EVAL(format [LLSTRING(ammo_basic_in_Desc), ".300 Winchester Magnum"]);
 
     scope = 2;
 
@@ -37,6 +39,7 @@ class GVAR(ammo_762x67_basic_20rnd): GVAR(ammo_core_20rnd) {
 
 class GVAR(ammo_762x67_basic_30rnd): GVAR(ammo_core_30rnd) {
     displayName = __EVAL(format [LLSTRING(ammo_basic_in_Name), ".300WM", 30]);
+    descriptionShort = __EVAL(format [LLSTRING(ammo_basic_in_Desc), ".300 Winchester Magnum"]);
 
     scope = 2;
     scopeArsenal=2;
@@ -51,6 +54,7 @@ class GVAR(ammo_762x67_basic_30rnd): GVAR(ammo_core_30rnd) {
 
 class GVAR(ammo_762x67_basic_40rnd): GVAR(ammo_core_40rnd) {
     displayName = __EVAL(format [LLSTRING(ammo_basic_in_Name), ".300WM", 40]);
+    descriptionShort = __EVAL(format [LLSTRING(ammo_basic_in_Desc), ".300 Winchester Magnum"]);
 
     scope = 2;
 
@@ -63,6 +67,7 @@ class GVAR(ammo_762x67_basic_40rnd): GVAR(ammo_core_40rnd) {
 
 class GVAR(ammo_762x67_basic_50rnd): GVAR(ammo_core_50rnd) {
     displayName = __EVAL(format [LLSTRING(ammo_basic_in_Name), ".300WM", 50]);
+    descriptionShort = __EVAL(format [LLSTRING(ammo_basic_in_Desc), ".300 Winchester Magnum"]);
 
     scope = 2;
 
@@ -75,6 +80,7 @@ class GVAR(ammo_762x67_basic_50rnd): GVAR(ammo_core_50rnd) {
 
 class GVAR(ammo_762x67_basic_60rnd): GVAR(ammo_core_60rnd) {
     displayName = __EVAL(format [LLSTRING(ammo_basic_in_Name), ".300WM", 60]);
+    descriptionShort = __EVAL(format [LLSTRING(ammo_basic_in_Desc), ".300 Winchester Magnum"]);
 
     scope = 2;
     scopeArsenal=2;

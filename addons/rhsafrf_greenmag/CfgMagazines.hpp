@@ -8,7 +8,7 @@ class CfgMagazines {
     class rhs_30Rnd_545x39_AK;
 
     class rhs_30Rnd_545x39_7N6_AK: rhs_30Rnd_545x39_AK {
-        greenmag_ammo = QEGVAR(common_greenmag,ammo_545x39_FMJ_1Rnd);
+        greenmag_ammo = QEGVAR(common_greenmag,ammo_545x39_fmj_1Rnd);
         greenmag_basicammo = "greenmag_ammo_545x39_basic_1Rnd";
         
         greenmag_needBelt = 0;
@@ -16,11 +16,11 @@ class CfgMagazines {
     };
 
     class rhs_30Rnd_545x39_7N10_AK: rhs_30Rnd_545x39_7N6_AK {
-        greenmag_ammo = QEGVAR(common_greenmag,ammo_545x39_EP_1Rnd);
+        greenmag_ammo = QEGVAR(common_greenmag,ammo_545x39_ep_1Rnd);
     };
 
     class rhs_30Rnd_545x39_7N22_AK: rhs_30Rnd_545x39_7N10_AK {
-        greenmag_ammo = QEGVAR(common_greenmag,ammo_545x39_AP_1Rnd);
+        greenmag_ammo = QEGVAR(common_greenmag,ammo_545x39_ap_1Rnd);
     };
 
     class rhs_30Rnd_545x39_AK_green: rhs_30Rnd_545x39_7N6_AK {
@@ -36,7 +36,7 @@ class CfgMagazines {
     /////////////
 
     class rhs_30Rnd_762x39mm: rhs_30Rnd_545x39_7N6_AK {
-        greenmag_ammo = QEGVAR(common_greenmag,ammo_762x39_FMJ_1Rnd);
+        greenmag_ammo = QEGVAR(common_greenmag,ammo_762x39_fmj_1Rnd);
         greenmag_basicammo = "greenmag_ammo_762x39_basic_1Rnd";
 
         greenmag_canSpeedload = 1;
@@ -44,7 +44,7 @@ class CfgMagazines {
     };
 
     class rhs_30Rnd_762x39mm_89: rhs_30Rnd_762x39mm {
-        greenmag_ammo = QEGVAR(common_greenmag,ammo_762x39_FMJ_1Rnd);
+        greenmag_ammo = QEGVAR(common_greenmag,ammo_762x39_fmj_1Rnd);
     };
 
     class rhs_30Rnd_762x39mm_tracer: rhs_30Rnd_762x39mm {
@@ -60,7 +60,7 @@ class CfgMagazines {
     //////////
 
     class rhs_mag_9x19_17: CA_Magazine {
-        greenmag_ammo = QEGVAR(common_greenmag,ammo_9x19_FMJ_1Rnd);
+        greenmag_ammo = QEGVAR(common_greenmag,ammo_9x19_fmj_1Rnd);
         greenmag_basicammo = "greenmag_ammo_9x19_basic_1Rnd";
 
         greenmag_canSpeedload = 1;
@@ -68,23 +68,23 @@ class CfgMagazines {
     };
 
     class rhs_mag_9x19_7n31_17: rhs_mag_9x19_17 {
-        greenmag_ammo = QEGVAR(common_greenmag,ammo_9x19_AP_1Rnd);
+        greenmag_ammo = QEGVAR(common_greenmag,ammo_9x19_ap_1Rnd);
     };
 
     class rhs_mag_9x19mm_7n21_20: rhs_mag_9x19_17 {
-        greenmag_ammo = QEGVAR(common_greenmag,ammo_9x19_FMJ_1Rnd);
+        greenmag_ammo = QEGVAR(common_greenmag,ammo_9x19_fmj_1Rnd);
     };
 
     class rhs_mag_9x19mm_7n31_20: rhs_mag_9x19mm_7n21_20 {
-        greenmag_ammo = QEGVAR(common_greenmag,ammo_9x19_AP_1Rnd);
+        greenmag_ammo = QEGVAR(common_greenmag,ammo_9x19_ap_1Rnd);
     };
 
     class rhs_mag_9x19mm_7n21_44: rhs_mag_9x19mm_7n21_20 {
-        greenmag_ammo = QEGVAR(common_greenmag,ammo_9x19_FMJ_1Rnd);
+        greenmag_ammo = QEGVAR(common_greenmag,ammo_9x19_fmj_1Rnd);
     };
 
     class rhs_mag_9x19mm_7n31_44: rhs_mag_9x19mm_7n21_44 {
-        greenmag_ammo = QEGVAR(common_greenmag,ammo_9x19_AP_1Rnd);
+        greenmag_ammo = QEGVAR(common_greenmag,ammo_9x19_ap_1Rnd);
     };
 
     //////////
@@ -104,7 +104,7 @@ class CfgMagazines {
     //////////
 
     class rhs_18rnd_9x21mm_7N28: rhs_mag_9x19_17 {
-        greenmag_ammo = QEGVAR(common_greenmag,ammo_9x21_FMJ_1Rnd);
+        greenmag_ammo = QEGVAR(common_greenmag,ammo_9x21_fmj_1Rnd);
         greenmag_basicammo = "greenmag_ammo_9x21_basic_1Rnd";
 
         greenmag_canSpeedload = 1;
@@ -112,7 +112,7 @@ class CfgMagazines {
     };
 
     class rhs_18rnd_9x21mm_7N29: rhs_18rnd_9x21mm_7N28 {
-        greenmag_ammo = QEGVAR(common_greenmag,ammo_9x21_AP_1Rnd);
+        greenmag_ammo = QEGVAR(common_greenmag,ammo_9x21_ap_1Rnd);
     };
 
     class rhs_18rnd_9x21mm_7BT3: rhs_18rnd_9x21mm_7N28 {
@@ -124,7 +124,7 @@ class CfgMagazines {
     //////////
 
     class rhs_20rnd_9x39mm_SP5: rhs_30Rnd_762x39mm {
-        greenmag_ammo = QEGVAR(common_greenmag,ammo_9x39_AP_1Rnd);
+        greenmag_ammo = QEGVAR(common_greenmag,ammo_9x39_ap_1Rnd);
         greenmag_basicammo = QEGVAR(common_greenmag,ammo_9x39_basic_1Rnd);
 
         greenmag_canSpeedload = 1;
@@ -136,7 +136,7 @@ class CfgMagazines {
     };
 
     class rhs_10rnd_9x39mm_SP5: rhs_20rnd_9x39mm_SP5 {
-        greenmag_ammo = QEGVAR(common_greenmag,ammo_9x39_AP_1Rnd);
+        greenmag_ammo = QEGVAR(common_greenmag,ammo_9x39_ap_1Rnd);
     };
 
     class rhs_10rnd_9x39mm_SP6: rhs_10rnd_9x39mm_SP5 {
@@ -173,7 +173,7 @@ class CfgMagazines {
     };
 
     class rhs_100Rnd_762x54mmR: rhs_30Rnd_545x39_7N6_AK {
-        greenmag_ammo = QEGVAR(common_greenmag,belt_762x54_FMJ);
+        greenmag_ammo = QEGVAR(common_greenmag,belt_762x54_fmj);
         greenmag_basicammo = "greenmag_beltlinked_762x54_basic";
 
         greenmag_canSpeedload = 0;
@@ -181,11 +181,11 @@ class CfgMagazines {
     };
 
     class rhs_100Rnd_762x54mmR_7N13: rhs_100Rnd_762x54mmR {
-        greenmag_ammo = QEGVAR(common_greenmag,belt_762x54_EP);
+        greenmag_ammo = QEGVAR(common_greenmag,belt_762x54_ep);
     };
 
     class rhs_100Rnd_762x54mmR_7N26: rhs_100Rnd_762x54mmR {
-        greenmag_ammo = QEGVAR(common_greenmag,belt_762x54_AP);
+        greenmag_ammo = QEGVAR(common_greenmag,belt_762x54_ap);
     };
 
     class rhs_100Rnd_762x54mmR_green: rhs_100Rnd_762x54mmR {
@@ -193,6 +193,6 @@ class CfgMagazines {
     };
 
     class rhs_100Rnd_762x54mmR_7BZ3: rhs_100Rnd_762x54mmR_7N13 {
-        greenmag_ammo = QEGVAR(common_greenmag,belt_762x54_AP);
+        greenmag_ammo = QEGVAR(common_greenmag,belt_762x54_ap);
     };
 };
