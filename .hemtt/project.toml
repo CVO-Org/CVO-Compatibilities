@@ -1,18 +1,17 @@
-name = "CVO Everything Compats"
+name = "24th CVO Compatibilities"
 prefix = "cvo_compats"
 mainprefix = "z"
 
 [properties]
 author = "24th Chorni Voron"
-url = "https://github.com/SkippieDippie/CVO-Everything-Compats"
+url = "https://github.com/SkippieDippie/24th-CVO-Compatibilities"
 
 [files]
 include = [
     "mod.cpp",
     "meta.cpp",
     "LICENSE",
-    "logo_ca.paa",
-    "logo_co.paa"
+    "*.paa"
 ]
 exclude  = [
 ]
