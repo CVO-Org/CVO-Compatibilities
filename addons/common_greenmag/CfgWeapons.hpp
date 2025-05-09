@@ -49,169 +49,169 @@ class CfgWeapons {
 
     // Ammo
     // 4.6x30
-    #include "ammo\46x30_basic.hpp"
-    #include "ammo\46x30_ap.hpp"
-    #include "ammo\46x30_fmj.hpp"
-    #include "ammo\46x30_jhp.hpp"
+    #include "ammo\46x30_Basic.hpp"
+    #include "ammo\46x30_AP.hpp"
+    #include "ammo\46x30_FMJ.hpp"
+    #include "ammo\46x30_JHP.hpp"
 
     // 5.45x39
-    #include "ammo\545x39_ap.hpp"
-    #include "ammo\545x39_ep.hpp"
-    #include "ammo\545x39_fmj.hpp"
-    #include "ammo\545x39_subsonic.hpp"
-    #include "ammo\545x39_tracer.hpp"
+    #include "ammo\545x39_AP.hpp"
+    #include "ammo\545x39_EP.hpp"
+    #include "ammo\545x39_FMJ.hpp"
+    #include "ammo\545x39_Subsonic.hpp"
+    #include "ammo\545x39_Tracer.hpp"
 
     // 5.56x45 NATO
-    #include "ammo\556x45_ap.hpp"
-    #include "ammo\556x45_ep.hpp"
-    #include "ammo\556x45_fmj.hpp"
-    #include "ammo\556x45_jhp.hpp"
-    #include "ammo\556x45_match.hpp"
+    #include "ammo\556x45_AP.hpp"
+    #include "ammo\556x45_EP.hpp"
+    #include "ammo\556x45_FMJ.hpp"
+    #include "ammo\556x45_JHP.hpp"
+    #include "ammo\556x45_Match.hpp"
     #include "ammo\556x45_blank.hpp"
-    #include "ammo\556x45_subsonic.hpp"
-    #include "ammo\556x45_tracer.hpp"
+    #include "ammo\556x45_Subsonic.hpp"
+    #include "ammo\556x45_Tracer.hpp"
 
     // 5.6x15
-    #include "ammo\56x15_basic.hpp"
-    #include "ammo\56x15_subsonic.hpp"
+    #include "ammo\56x15_Basic.hpp"
+    #include "ammo\56x15_Subsonic.hpp"
 
     // 5.7x28
-    #include "ammo\570x28_fmj.hpp"
-    #include "ammo\570x28_tracer.hpp"
+    #include "ammo\570x28_FMJ.hpp"
+    #include "ammo\570x28_Tracer.hpp"
 
     // 7.5x55
-    #include "ammo\75x55_basic.hpp"
-    #include "ammo\75x55_fmj.hpp"
-    #include "ammo\75x55_tracer.hpp"
+    #include "ammo\75x55_Basic.hpp"
+    #include "ammo\75x55_FMJ.hpp"
+    #include "ammo\75x55_Tracer.hpp"
 
     // 7.62x25
-    #include "ammo\762x25_basic.hpp"
-    #include "ammo\762x25_fmj.hpp"
-    #include "ammo\762x25_tracer.hpp"
+    #include "ammo\762x25_Basic.hpp"
+    #include "ammo\762x25_FMJ.hpp"
+    #include "ammo\762x25_Tracer.hpp"
 
     // 7.62x33
-    #include "ammo\762x33_basic.hpp"
-    #include "ammo\762x33_fmj.hpp"
-    #include "ammo\762x33_tracer.hpp"
+    #include "ammo\762x33_Basic.hpp"
+    #include "ammo\762x33_FMJ.hpp"
+    #include "ammo\762x33_Tracer.hpp"
 
     // 7.62x39
-    #include "ammo\762x39_ap.hpp"
-    #include "ammo\762x39_ep.hpp"
-    #include "ammo\762x39_fmj.hpp"
-    #include "ammo\762x39_jhp.hpp"
-    #include "ammo\762x39_subsonic.hpp"
-    #include "ammo\762x39_tracer.hpp"
+    #include "ammo\762x39_AP.hpp"
+    #include "ammo\762x39_EP.hpp"
+    #include "ammo\762x39_FMJ.hpp"
+    #include "ammo\762x39_JHP.hpp"
+    #include "ammo\762x39_Subsonic.hpp"
+    #include "ammo\762x39_Tracer.hpp"
 
     // 7.62x51 NATO
-    #include "ammo\762x51_ap.hpp"
-    #include "ammo\762x51_ep.hpp"
-    #include "ammo\762x51_fmj.hpp"
+    #include "ammo\762x51_AP.hpp"
+    #include "ammo\762x51_EP.hpp"
+    #include "ammo\762x51_FMJ.hpp"
     #include "ammo\762x51_blank.hpp"
-    #include "ammo\762x51_match.hpp"
-    #include "ammo\762x51_tracer.hpp"
+    #include "ammo\762x51_Match.hpp"
+    #include "ammo\762x51_Tracer.hpp"
 
     // 7.62x54
-    #include "ammo\762x54_ap.hpp"
-    #include "ammo\762x54_ep.hpp"
-    #include "ammo\762x54_fmj.hpp"
-    #include "ammo\762x54_match.hpp"
-    #include "ammo\762x54_tracer.hpp"
+    #include "ammo\762x54_AP.hpp"
+    #include "ammo\762x54_EP.hpp"
+    #include "ammo\762x54_FMJ.hpp"
+    #include "ammo\762x54_Match.hpp"
+    #include "ammo\762x54_Tracer.hpp"
 
     // .30-06 Springfield
-    #include "ammo\762x63_basic.hpp"
-    #include "ammo\762x63_ap.hpp"
-    #include "ammo\762x63_fmj.hpp"
-    #include "ammo\762x63_tracer.hpp"
+    #include "ammo\762x63_Basic.hpp"
+    #include "ammo\762x63_AP.hpp"
+    #include "ammo\762x63_FMJ.hpp"
+    #include "ammo\762x63_Tracer.hpp"
 
     // .300 Winchester
-    #include "ammo\762x67_basic.hpp"
-    #include "ammo\762x67_match.hpp"
+    #include "ammo\762x67_Basic.hpp"
+    #include "ammo\762x67_Match.hpp"
 
     // .32ACP
-    #include "ammo\765x17_basic.hpp"
-    #include "ammo\765x17_fmj.hpp"
-    #include "ammo\765x17_subsonic.hpp"
-    #include "ammo\765x17_tracer.hpp"
+    #include "ammo\765x17_Basic.hpp"
+    #include "ammo\765x17_FMJ.hpp"
+    #include "ammo\765x17_Subsonic.hpp"
+    #include "ammo\765x17_Tracer.hpp"
 
     // .303 British (7.7x56)
-    #include "ammo\77x56_basic.hpp"
-    #include "ammo\77x56_fmj.hpp"
-    #include "ammo\77x56_tracer.hpp"
+    #include "ammo\77x56_Basic.hpp"
+    #include "ammo\77x56_FMJ.hpp"
+    #include "ammo\77x56_Tracer.hpp"
 
     // 7.92x33 Kurz
-    #include "ammo\792x33_basic.hpp"
+    #include "ammo\792x33_Basic.hpp"
 
     // 7.92x57 Mauser
-    #include "ammo\792x57_basic.hpp"
-    #include "ammo\792x57_ap.hpp"
-    #include "ammo\792x57_fmj.hpp"
-    #include "ammo\792x57_tracer.hpp"
+    #include "ammo\792x57_Basic.hpp"
+    #include "ammo\792x57_AP.hpp"
+    #include "ammo\792x57_FMJ.hpp"
+    #include "ammo\792x57_Tracer.hpp"
 
 
     // 8x22 Nambu
-    #include "ammo\8x22_basic.hpp"
+    #include "ammo\8x22_Basic.hpp"
     
 
     // 9x18
-    #include "ammo\9x18_basic.hpp"
+    #include "ammo\9x18_Basic.hpp"
 
 
     // 9x19
-    #include "ammo\9x19_ap.hpp"
-    #include "ammo\9x19_fmj.hpp"
-    #include "ammo\9x19_jhp.hpp"
+    #include "ammo\9x19_AP.hpp"
+    #include "ammo\9x19_FMJ.hpp"
+    #include "ammo\9x19_JHP.hpp"
 
 
     // 9x21
-    #include "ammo\9x21_ap.hpp"
-    #include "ammo\9x21_fmj.hpp"
-    #include "ammo\9x21_tracer.hpp"
+    #include "ammo\9x21_AP.hpp"
+    #include "ammo\9x21_FMJ.hpp"
+    #include "ammo\9x21_Tracer.hpp"
 
 
     // // 9x39
-    #include "ammo\9x39_basic.hpp"
-    #include "ammo\9x39_ap.hpp"
-    #include "ammo\9x39_match.hpp"
+    #include "ammo\9x39_Basic.hpp"
+    #include "ammo\9x39_AP.hpp"
+    #include "ammo\9x39_Match.hpp"
 
     // 9.3x62
-    #include "ammo\93x62_basic.hpp"
-    #include "ammo\93x62_fmj.hpp"
-    #include "ammo\93x62_tracer.hpp"
+    #include "ammo\93x62_Basic.hpp"
+    #include "ammo\93x62_FMJ.hpp"
+    #include "ammo\93x62_Tracer.hpp"
 
     // 10x25
-    #include "ammo\10x25_basic.hpp"
-    #include "ammo\10x25_fmj.hpp"
-    #include "ammo\10x25_tracer.hpp"
+    #include "ammo\10x25_Basic.hpp"
+    #include "ammo\10x25_FMJ.hpp"
+    #include "ammo\10x25_Tracer.hpp"
 
     // .50BMG
-    #include "ammo\127x99_ap.hpp"
-    #include "ammo\127x99_match.hpp"
+    #include "ammo\127x99_AP.hpp"
+    #include "ammo\127x99_Match.hpp"
 
     // Belts
-    #include "belts\556x45_ap.hpp"
-    #include "belts\556x45_ep.hpp"
-    #include "belts\556x45_fmj.hpp"
+    #include "belts\556x45_AP.hpp"
+    #include "belts\556x45_EP.hpp"
+    #include "belts\556x45_FMJ.hpp"
     #include "belts\556x45_blank.hpp"
 
-    #include "belts\762x39_basic.hpp"
-    #include "belts\762x39_fmj.hpp"
-    #include "belts\762x39_tracer.hpp"
+    #include "belts\762x39_Basic.hpp"
+    #include "belts\762x39_FMJ.hpp"
+    #include "belts\762x39_Tracer.hpp"
 
-    #include "belts\762x51_ap.hpp"
-    #include "belts\762x51_ep.hpp"
-    #include "belts\762x51_fmj.hpp"
+    #include "belts\762x51_AP.hpp"
+    #include "belts\762x51_EP.hpp"
+    #include "belts\762x51_FMJ.hpp"
     #include "belts\762x51_blank.hpp"
-    #include "belts\762x51_match.hpp"
-    #include "belts\762x51_tracer.hpp"
+    #include "belts\762x51_Match.hpp"
+    #include "belts\762x51_Tracer.hpp"
 
-    #include "belts\762x54_ap.hpp"
-    #include "belts\762x54_ep.hpp"
-    #include "belts\762x54_fmj.hpp"
-    #include "belts\762x54_tracer.hpp"
+    #include "belts\762x54_AP.hpp"
+    #include "belts\762x54_EP.hpp"
+    #include "belts\762x54_FMJ.hpp"
+    #include "belts\762x54_Tracer.hpp"
 
-    #include "belts\792x57_basic.hpp"
-    #include "belts\792x57_ap.hpp"
-    #include "belts\792x57_fmj.hpp"
-    #include "belts\792x57_tracer.hpp"
+    #include "belts\792x57_Basic.hpp"
+    #include "belts\792x57_AP.hpp"
+    #include "belts\792x57_FMJ.hpp"
+    #include "belts\792x57_Tracer.hpp"
     
 };
