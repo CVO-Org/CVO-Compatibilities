@@ -67,7 +67,7 @@ class CfgWeapons {
     #include "ammo\556x45_FMJ.hpp"
     #include "ammo\556x45_JHP.hpp"
     #include "ammo\556x45_Match.hpp"
-    #include "ammo\556x45_blank.hpp"
+    #include "ammo\556x45_Blank.hpp"
     #include "ammo\556x45_Subsonic.hpp"
     #include "ammo\556x45_Tracer.hpp"
 
@@ -106,7 +106,7 @@ class CfgWeapons {
     #include "ammo\762x51_AP.hpp"
     #include "ammo\762x51_EP.hpp"
     #include "ammo\762x51_FMJ.hpp"
-    #include "ammo\762x51_blank.hpp"
+    #include "ammo\762x51_Blank.hpp"
     #include "ammo\762x51_Match.hpp"
     #include "ammo\762x51_Tracer.hpp"
 
@@ -191,7 +191,7 @@ class CfgWeapons {
     #include "belts\556x45_AP.hpp"
     #include "belts\556x45_EP.hpp"
     #include "belts\556x45_FMJ.hpp"
-    #include "belts\556x45_blank.hpp"
+    #include "belts\556x45_Blank.hpp"
 
     #include "belts\762x39_Basic.hpp"
     #include "belts\762x39_FMJ.hpp"
@@ -200,7 +200,7 @@ class CfgWeapons {
     #include "belts\762x51_AP.hpp"
     #include "belts\762x51_EP.hpp"
     #include "belts\762x51_FMJ.hpp"
-    #include "belts\762x51_blank.hpp"
+    #include "belts\762x51_Blank.hpp"
     #include "belts\762x51_Match.hpp"
     #include "belts\762x51_Tracer.hpp"
 
