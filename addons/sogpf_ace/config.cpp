@@ -24,3 +24,21 @@ class CfgPatches {
 };
 
 #include "CfgVehicles.hpp"
+
+class ace_medical_facilities {
+    SOGPF_medicalFacilities[] = {   "Land_vn_barracks_04_02",
+                                    "Land_vn_tent_mash_01_01",
+                                    "Land_vn_tent_mash_01_02",
+                                    "Land_vn_hootch_02_01",
+                                    "Land_vn_hootch_02_11",
+                                    "Land_vn_tent_mash_02_01",
+                                    "Land_vn_tent_mash_02_02",
+                                    "Land_vn_tent_mash_02_03",
+                                    "Land_vn_tent_mash_02_04",
+                                    "Land_vn_tent_mash_01_03",
+                                    "Land_vn_tent_mash_01_04",
+                                    "Land_vn_tent_mash_01",
+                                    "Land_vn_a_hospital",
+                                    "Land_vn_wf_field_hospital_east" };
+
+};
