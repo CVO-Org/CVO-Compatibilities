@@ -1,3 +1,5 @@
 class CfgVehicles {
-    #include "inc_CfgVehicles_Heli.hpp"
+    #include "CfgVehicles\helicopters.hpp"
+    #include "CfgVehicles\tracked.hpp"
+    #include "CfgVehicles\wheeled.hpp"
 };

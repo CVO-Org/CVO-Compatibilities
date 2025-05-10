@@ -7,8 +7,12 @@ class CfgPatches {
         url = "https://github.com/SkippieDippie/CVO-Everything-Compats";
 
         requiredAddons[] = {
+            "armor_f_vietnam_03_c",
             "air_f_vietnam_c",
             "air_f_vietnam_02_c",
+            "air_f_vietnam_03_c",
+            "wheeled_f_vietnam_c",
+            "wheeled_f_vietnam_04_c",
             "ace_main"
         };
         requiredVersion = 1.00;
