@@ -24,6 +24,7 @@ class CfgPatches {
 };
 
 #include "CfgVehicles.hpp"
+#include "CfgWeapons.hpp"
 
 class ace_medical_facilities {
     SOGPF_medicalFacilities[] = {   "Land_vn_barracks_04_02",
