@@ -1,3 +1,301 @@
+class Tank_F;
+class vn_armor_tank_base : Tank_F {
+    acre_hasInfantryPhone = 1;
+    acre_infantryPhoneDisableRinging = 1;
+    acre_infantryPhoneIntercom[] = {"Intercom_1"};
+
+    class AcreIntercoms {
+        class Intercom_1 {
+            displayName = "$STR_ACRE_sys_intercom_crewIntercom";
+            shortName = "$STR_ACRE_sys_intercom_shortCrewIntercom";
+
+            allowedPositions[] = {
+                "crew"
+            };
+            disabledPositions[] = {};
+            masterPositions[] = {
+                "commander"
+            };
+
+            limitedPositions[] = {};
+            numLimitedPositions = 0;
+
+            connectedByDefault = 1;
+        };
+    };
+};
+
+
+class vn_armor_m41_base;
+class vn_b_armor_m41_01_01_base: vn_armor_m41_base {
+    class AcreRacks {
+        class Rack_1 {
+            displayName = "FM Communication 1";
+            shortName = "FM 1";
+
+            componentName = "ACRE_VRC64";
+            mountedRadio = "ACRE_PRC77";
+            isRadioRemovable = 0;
+            defaultComponents[] = {};
+
+            allowedPositions[] = {
+                "inside"
+            };
+            disabledPositions[] = {
+                "driver",
+                {"turnedout", "all"}
+            };
+
+            intercom[] = {"Intercom_1"};
+        };
+
+        class Rack_2 {
+            displayName = "FM Communication 2";
+            shortName = "FM 2";
+
+            componentName = "ACRE_VRC64";
+            mountedRadio = "ACRE_PRC77";
+            isRadioRemovable = 0;
+            defaultComponents[] = {};
+
+            allowedPositions[] = {
+                "inside"
+            };
+            disabledPositions[] = {
+                "driver",
+                {"turnedout", "all"}
+            };
+
+            intercom[] = {"Intercom_1"};
+        };
+    };
+};
+
+class vn_b_armor_m41_01_02_base: vn_armor_m41_base {
+    class AcreRacks {
+        class Rack_1 {
+            displayName = "FM Communication 1";
+            shortName = "FM 1";
+
+            componentName = "ACRE_VRC64";
+            mountedRadio = "ACRE_PRC77";
+            isRadioRemovable = 0;
+            defaultComponents[] = {};
+
+            allowedPositions[] = {
+                "inside"
+            };
+            disabledPositions[] = {
+                "driver",
+                {"turnedout", "all"}
+            };
+
+            intercom[] = {"Intercom_1"};
+        };
+
+        class Rack_2 {
+            displayName = "FM Communication 2";
+            shortName = "FM 2";
+
+            componentName = "ACRE_VRC64";
+            mountedRadio = "ACRE_PRC77";
+            isRadioRemovable = 0;
+            defaultComponents[] = {};
+
+            allowedPositions[] = {
+                "inside"
+            };
+            disabledPositions[] = {
+                "driver",
+                {"turnedout", "all"}
+            };
+
+            intercom[] = {"Intercom_1"};
+        };
+    };
+};
+
+
+class vn_armor_m48a3_base;
+class vn_b_armor_m48_01_01: vn_armor_m48a3_base {
+    class AcreRacks {
+        class Rack_1 {
+            displayName = "FM Communication 1";
+            shortName = "FM 1";
+
+            componentName = "ACRE_VRC64";
+            mountedRadio = "ACRE_PRC77";
+            isRadioRemovable = 0;
+            defaultComponents[] = {};
+
+            allowedPositions[] = {
+                "inside"
+            };
+            disabledPositions[] = {
+                "driver",
+                {"turnedout", "all"}
+            };
+
+            intercom[] = {"Intercom_1"};
+        };
+
+        class Rack_2 {
+            displayName = "FM Communication 2";
+            shortName = "FM 2";
+
+            componentName = "ACRE_VRC64";
+            mountedRadio = "ACRE_PRC77";
+            isRadioRemovable = 0;
+            defaultComponents[] = {};
+
+            allowedPositions[] = {
+                "inside"
+            };
+            disabledPositions[] = {
+                "driver",
+                {"turnedout", "all"}
+            };
+
+            intercom[] = {"Intercom_1"};
+        };
+    };
+};
+
+class vn_b_armor_m48_01_02: vn_armor_m48a3_base {
+    class AcreRacks {
+        class Rack_1 {
+            displayName = "FM Communication 1";
+            shortName = "FM 1";
+
+            componentName = "ACRE_VRC64";
+            mountedRadio = "ACRE_PRC77";
+            isRadioRemovable = 0;
+            defaultComponents[] = {};
+
+            allowedPositions[] = {
+                "inside"
+            };
+            disabledPositions[] = {
+                "driver",
+                {"turnedout", "all"}
+            };
+
+            intercom[] = {"Intercom_1"};
+        };
+
+        class Rack_2 {
+            displayName = "FM Communication 2";
+            shortName = "FM 2";
+
+            componentName = "ACRE_VRC64";
+            mountedRadio = "ACRE_PRC77";
+            isRadioRemovable = 0;
+            defaultComponents[] = {};
+
+            allowedPositions[] = {
+                "inside"
+            };
+            disabledPositions[] = {
+                "driver",
+                {"turnedout", "all"}
+            };
+
+            intercom[] = {"Intercom_1"};
+        };
+    };
+};
+
+
+class vn_armor_m67a2_base;
+class vn_b_armor_m67_01_01: vn_armor_m67a2_base {
+    class AcreRacks {
+        class Rack_1 {
+            displayName = "FM Communication 1";
+            shortName = "FM 1";
+
+            componentName = "ACRE_VRC64";
+            mountedRadio = "ACRE_PRC77";
+            isRadioRemovable = 0;
+            defaultComponents[] = {};
+
+            allowedPositions[] = {
+                "inside"
+            };
+            disabledPositions[] = {
+                "driver",
+                {"turnedout", "all"}
+            };
+
+            intercom[] = {"Intercom_1"};
+        };
+
+        class Rack_2 {
+            displayName = "FM Communication 2";
+            shortName = "FM 2";
+
+            componentName = "ACRE_VRC64";
+            mountedRadio = "ACRE_PRC77";
+            isRadioRemovable = 0;
+            defaultComponents[] = {};
+
+            allowedPositions[] = {
+                "inside"
+            };
+            disabledPositions[] = {
+                "driver",
+                {"turnedout", "all"}
+            };
+
+            intercom[] = {"Intercom_1"};
+        };
+    };
+};
+
+class vn_b_armor_m67_01_02: vn_armor_m67a2_base {
+    class AcreRacks {
+        class Rack_1 {
+            displayName = "FM Communication 1";
+            shortName = "FM 1";
+
+            componentName = "ACRE_VRC64";
+            mountedRadio = "ACRE_PRC77";
+            isRadioRemovable = 0;
+            defaultComponents[] = {};
+
+            allowedPositions[] = {
+                "inside"
+            };
+            disabledPositions[] = {
+                "driver",
+                {"turnedout", "all"}
+            };
+
+            intercom[] = {"Intercom_1"};
+        };
+
+        class Rack_2 {
+            displayName = "FM Communication 2";
+            shortName = "FM 2";
+
+            componentName = "ACRE_VRC64";
+            mountedRadio = "ACRE_PRC77";
+            isRadioRemovable = 0;
+            defaultComponents[] = {};
+
+            allowedPositions[] = {
+                "inside"
+            };
+            disabledPositions[] = {
+                "driver",
+                {"turnedout", "all"}
+            };
+
+            intercom[] = {"Intercom_1"};
+        };
+    };
+};
+
+
 class APC_Tracked_01_base_F;
 class vn_armor_m113_base: APC_Tracked_01_base_F {
     acre_hasInfantryPhone = 1;
@@ -493,6 +791,7 @@ class vn_b_armor_m125_01_rok_army: vn_armor_m125_base {
     };
 };
 
+
 class vn_armor_m132_base;
 class vn_b_armor_m132_01: vn_armor_m132_base {
     class AcreRacks {
@@ -518,10 +817,31 @@ class vn_b_armor_m132_01: vn_armor_m132_base {
     };
 };
 
+
 class vn_armor_m577_01_base;
 class vn_b_armor_m577_01: vn_armor_m577_01_base {
     class AcreRacks {
         class Rack_1 {
+            displayName = "FM Communication";
+            shortName = "FM";
+
+            componentName = "ACRE_VRC64";
+            mountedRadio = "ACRE_PRC77";
+            isRadioRemovable = 0;
+            defaultComponents[] = {};
+
+            allowedPositions[] = {
+                "driver",
+                "commander"
+            };
+            disabledPositions[] = {
+                {"turnedout", "all"}
+            };
+
+            intercom[] = {Intercom_1};
+        };
+
+        class Rack_2 {
             displayName = "FM Communication 1";
             shortName = "FM 1";
 
@@ -534,13 +854,14 @@ class vn_b_armor_m577_01: vn_armor_m577_01_base {
                 "inside"
             };
             disabledPositions[] = {
+                "driver"
                 {"turnedout", "all"}
             };
 
             intercom[] = {};
         };
 
-        class Rack_2 {
+        class Rack_3 {
             displayName = "FM Communication 2";
             shortName = "FM 2";
 
@@ -553,6 +874,7 @@ class vn_b_armor_m577_01: vn_armor_m577_01_base {
                 "inside"
             };
             disabledPositions[] = {
+                "driver"
                 {"turnedout", "all"}
             };
 
@@ -564,6 +886,26 @@ class vn_b_armor_m577_01: vn_armor_m577_01_base {
 class vn_b_armor_m577_01_aus_army: vn_armor_m577_01_base {
     class AcreRacks {
         class Rack_1 {
+            displayName = "FM Communication";
+            shortName = "FM";
+
+            componentName = "ACRE_VRC64";
+            mountedRadio = "ACRE_PRC77";
+            isRadioRemovable = 0;
+            defaultComponents[] = {};
+
+            allowedPositions[] = {
+                "driver",
+                "commander"
+            };
+            disabledPositions[] = {
+                {"turnedout", "all"}
+            };
+
+            intercom[] = {Intercom_1};
+        };
+
+        class Rack_2 {
             displayName = "FM Communication 1";
             shortName = "FM 1";
 
@@ -576,13 +918,14 @@ class vn_b_armor_m577_01_aus_army: vn_armor_m577_01_base {
                 "inside"
             };
             disabledPositions[] = {
+                "driver"
                 {"turnedout", "all"}
             };
 
             intercom[] = {};
         };
 
-        class Rack_2 {
+        class Rack_3 {
             displayName = "FM Communication 2";
             shortName = "FM 2";
 
@@ -595,6 +938,7 @@ class vn_b_armor_m577_01_aus_army: vn_armor_m577_01_base {
                 "inside"
             };
             disabledPositions[] = {
+                "driver"
                 {"turnedout", "all"}
             };
 
@@ -606,6 +950,26 @@ class vn_b_armor_m577_01_aus_army: vn_armor_m577_01_base {
 class vn_b_armor_m577_01_rok_army: vn_armor_m577_01_base {
     class AcreRacks {
         class Rack_1 {
+            displayName = "FM Communication";
+            shortName = "FM";
+
+            componentName = "ACRE_VRC64";
+            mountedRadio = "ACRE_PRC77";
+            isRadioRemovable = 0;
+            defaultComponents[] = {};
+
+            allowedPositions[] = {
+                "driver",
+                "commander"
+            };
+            disabledPositions[] = {
+                {"turnedout", "all"}
+            };
+
+            intercom[] = {Intercom_1};
+        };
+
+        class Rack_2 {
             displayName = "FM Communication 1";
             shortName = "FM 1";
 
@@ -618,13 +982,14 @@ class vn_b_armor_m577_01_rok_army: vn_armor_m577_01_base {
                 "inside"
             };
             disabledPositions[] = {
+                "driver"
                 {"turnedout", "all"}
             };
 
             intercom[] = {};
         };
 
-        class Rack_2 {
+        class Rack_3 {
             displayName = "FM Communication 2";
             shortName = "FM 2";
 
@@ -637,6 +1002,7 @@ class vn_b_armor_m577_01_rok_army: vn_armor_m577_01_base {
                 "inside"
             };
             disabledPositions[] = {
+                "driver"
                 {"turnedout", "all"}
             };
 
