@@ -838,7 +838,7 @@ class vn_b_armor_m577_01: vn_armor_m577_01_base {
                 {"turnedout", "all"}
             };
 
-            intercom[] = {Intercom_1};
+            intercom[] = {"Intercom_1"};
         };
 
         class Rack_2 {
@@ -854,7 +854,7 @@ class vn_b_armor_m577_01: vn_armor_m577_01_base {
                 "inside"
             };
             disabledPositions[] = {
-                "driver"
+                "driver",
                 {"turnedout", "all"}
             };
 
@@ -874,7 +874,7 @@ class vn_b_armor_m577_01: vn_armor_m577_01_base {
                 "inside"
             };
             disabledPositions[] = {
-                "driver"
+                "driver",
                 {"turnedout", "all"}
             };
 
@@ -902,7 +902,7 @@ class vn_b_armor_m577_01_aus_army: vn_armor_m577_01_base {
                 {"turnedout", "all"}
             };
 
-            intercom[] = {Intercom_1};
+            intercom[] = {"Intercom_1"};
         };
 
         class Rack_2 {
@@ -918,7 +918,7 @@ class vn_b_armor_m577_01_aus_army: vn_armor_m577_01_base {
                 "inside"
             };
             disabledPositions[] = {
-                "driver"
+                "driver",
                 {"turnedout", "all"}
             };
 
@@ -938,7 +938,7 @@ class vn_b_armor_m577_01_aus_army: vn_armor_m577_01_base {
                 "inside"
             };
             disabledPositions[] = {
-                "driver"
+                "driver",
                 {"turnedout", "all"}
             };
 
@@ -966,7 +966,7 @@ class vn_b_armor_m577_01_rok_army: vn_armor_m577_01_base {
                 {"turnedout", "all"}
             };
 
-            intercom[] = {Intercom_1};
+            intercom[] = {"Intercom_1"};
         };
 
         class Rack_2 {
@@ -982,7 +982,7 @@ class vn_b_armor_m577_01_rok_army: vn_armor_m577_01_base {
                 "inside"
             };
             disabledPositions[] = {
-                "driver"
+                "driver",
                 {"turnedout", "all"}
             };
 
@@ -1002,7 +1002,7 @@ class vn_b_armor_m577_01_rok_army: vn_armor_m577_01_base {
                 "inside"
             };
             disabledPositions[] = {
-                "driver"
+                "driver",
                 {"turnedout", "all"}
             };
 

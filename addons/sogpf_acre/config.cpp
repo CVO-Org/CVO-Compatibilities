@@ -10,10 +10,11 @@ class CfgPatches {
             "air_f_vietnam_c",
             "air_f_vietnam_02_c",
             "wheeled_f_vietnam_c",
-            "wheeled_f_vietnam_02_c"
-            "wheeled_f_vietnam_03_c"
-            "wheeled_f_vietnam_04_c"
-            "acre_main"
+            "wheeled_f_vietnam_02_c",
+            "wheeled_f_vietnam_03_c",
+            "wheeled_f_vietnam_04_c",
+            "acre_main",
+            "acre_compat_sog"
         };
         requiredVersion = 1.00;
         skipWhenMissingDependencies = 1;
