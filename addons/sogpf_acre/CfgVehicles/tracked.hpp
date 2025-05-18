@@ -1,5 +1,5 @@
 class Tank_F;
-class vn_armor_tank_base : Tank_F {
+class vn_armor_tank_base: Tank_F {
     acre_hasInfantryPhone = 1;
     acre_infantryPhoneDisableRinging = 1;
     acre_infantryPhoneIntercom[] = {"Intercom_1"};
