@@ -2,12 +2,8 @@
 workshop = [
     "450814997", #CBA
 ]
-presets = [
-    "dev_full",
-]
-dlc = [
-    "vn",
-    ]
+presets = []
+dlc = []
 optionals = []
 parameters = [
     "-skipIntro",
@@ -20,6 +16,31 @@ executable = "arma3_x64"
 file_patching = true
 binarize = false
 rapify = true
+
+
+
+[dev_acre_vanilla]
+workshop = [
+    "450814997", #CBA
+]
+presets = [
+    "dev_acre_vanilla",
+]
+dlc = []
+optionals = []
+parameters = [
+    "-skipIntro",
+    "-noSplash",
+    "-showScriptErrors",
+    "-debug",
+    "-filePatching",
+]
+executable = "arma3_x64"
+file_patching = true
+binarize = false
+rapify = true
+
+
 
 [no_rhs]
 workshop = [
