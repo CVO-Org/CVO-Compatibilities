@@ -1,4 +1,4 @@
-#define MAINPREFIX z
+#define MAINPREFIX cvo
 #define PREFIX cvo_compats
 
 #include "script_version.hpp"

@@ -1,5 +1,5 @@
 #define COMPONENT eup_pouches
-#include "\z\cvo_compats\addons\main\script_mod.hpp"
+#include "\cvo\cvo_compats\addons\main\script_mod.hpp"
 
 #ifdef DEBUG_ENABLED_MAIN
     #define DEBUG_MODE_FULL
@@ -9,4 +9,4 @@
     #define DEBUG_SETTINGS DEBUG_SETTINGS_MAIN
 #endif
 
-#include "\z\cvo_compats\addons\main\script_macros.hpp"
+#include "\cvo\cvo_compats\addons\main\script_macros.hpp"
